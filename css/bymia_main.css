@@ -95,6 +95,7 @@ a{
 }
 .container > header h1 span:hover {
     opacity: .7;
+    text-decoration: none;
 }
 .container > header h2 {
 	font-size: 16px;
@@ -153,6 +154,7 @@ div.bymia-a a.link-3:hover span,
 div.bymia-a a.link-4:hover span {
     display: inline;
     position: absolute;
+    text-decoration: none;
 }
 div.bymia-a a.link-1 {
     color: rgba(209, 95, 238, 0.5);
@@ -187,6 +189,7 @@ div.bymia-txt a.link-2 span,
 div.bymia-txt a.link-3 span,
 div.bymia-txt a.link-4 span {
     display: none;
+    text-decoration: none;
 }
 div.bymia-txt a.link-1 {
     color: rgba(209, 95, 238, 0.8);
