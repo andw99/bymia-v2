@@ -97,20 +97,13 @@ a{
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
-p.codrops-demos{
-	display: block;
-	padding: 15px 0px;
-}
-p.codrops-demos a,
-p.codrops-demos a.current-demo,
-p.codrops-demos a.current-demo:hover{
+div.mia-links {
+    z-index: 9999;
     display: inline-block;
-    line-height: 75%;
-    margin-top: -5%;
-	width: 60%;
-    padding-bottom: -20px;
-    margin-bottom: -20px;
-    margin-left: 20%;
+    top: 6vh;
+    position: absolute;
+    margin-left:20%;
+    width: 60%;
     font-family: Georgia;
 	font-size: 100px;
 	font-size: 18vw;
@@ -118,37 +111,102 @@ p.codrops-demos a.current-demo:hover{
 	text-align: center;
 	font-weight: 800;
 }
-p.codrops-demos a.link-1 {
-    z-index: 200;
-    margin-top: -5%;
-    color: rgba(209, 95, 238, 0.8);
+div.mia-a {
+    line-height: .52em;
+    overflow: hidden;
 }
-p.codrops-demos a.link-2 {
-    color: rgba(209, 95, 238, 0.7);
+div.mia-a a.link-1 span,
+div.mia-a a.link-2 span,
+div.mia-a a.link-3 span,
+div.mia-a a.link-4 span {
+    display: none;
 }
-p.codrops-demos a.link-3 {
-    color: rgba(209, 95, 238, 0.6);
+div.mia-a a.link-1:hover span,
+div.mia-a a.link-2:hover span,
+div.mia-a a.link-3:hover span,
+div.mia-a a.link-4:hover span {
+    display: inline;
+    position: absolute;
 }
-p.codrops-demos a.link-4 {
+div.mia-a a.link-1 {
     color: rgba(209, 95, 238, 0.5);
 }
-p.codrops-demos a:hover{
-	color: rgba(95, 238, 137, 0.8);
+div.mia-a a.link-2 {
+    color: rgba(209, 95, 238, 0.4);
 }
-p.codrops-demos a:active{
-	background: rgba(95, 238, 137, 0.2);
-	background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(56%,#8f0222), color-stop(100%,#a90329));
-	background: -webkit-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	background: -o-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	background: -ms-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	background: linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
-	-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.9);
-	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+div.mia-a a.link-3 {
+    color: rgba(209, 95, 238, 0.3);
 }
-p.codrops-demos a.current-demo,
-p.codrops-demos a.current-demo:hover{
-    color: rgba(238, 95, 196, 0.5);
-	background: rgba(124, 238, 95, 0.2);
+div.mia-a a.link-4 {
+    color: rgba(209, 95, 238, 0.2);
+}
+div.mia-txt {
+    display: inline-block;
+    top: 6vh;
+    position: absolute;
+    margin-left:20%;
+    width: 60%;
+    font-family: Georgia;
+	font-size: 100px;
+	font-size: 18vw;
+    font-style: italic;
+	text-align: center;
+	font-weight: 800;
+}
+div.mia-menu {
+    line-height: .52em;
+}
+div.mia-txt a.link-1 span,
+div.mia-txt a.link-2 span,
+div.mia-txt a.link-3 span,
+div.mia-txt a.link-4 span {
+    display: none;
+}
+div.mia-txt a.link-1 {
+    color: rgba(209, 95, 238, 0.8);
+}
+div.mia-txt a.link-2 {
+    color: rgba(209, 95, 238, 0.7);
+}
+div.mia-txt a.link-3 {
+    color: rgba(209, 95, 238, 0.6);
+}
+div.mia-txt a.link-4 {
+    color: rgba(209, 95, 238, 0.5);
+}
+@media screen and (orientation: portrait) {
+    div.mia-links {
+        z-index: 9999;
+        display: inline-block;
+        top: 12vh;
+        position: absolute;
+        margin-left: -5%;
+        width: 100%;
+        font-family: Georgia;
+        font-size: 100px;
+        font-size: 25vh;
+        font-style: italic;
+        text-align: center;
+        font-weight: 800;
+    }
+    div.mia-a {
+        line-height: .58em;
+        overflow: hidden;
+    }
+    div.mia-txt {
+        display: inline-block;
+        top: 12vh;
+        position: absolute;
+        margin-left: -5%;
+        width: 100%;
+        font-family: Georgia;
+	   font-size: 100px;
+	   font-size: 25vh;
+        font-style: italic;
+	   text-align: center;
+	   font-weight: 800;
+    }
+    div.mia-menu {
+        line-height: .58em;
+    }
 }
