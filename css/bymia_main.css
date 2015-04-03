@@ -14,7 +14,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 	padding:0;
 }
 html,body {
-	margin:0;
+    height: 100%;
+    margin:0;
 	padding:0;
 }
 table {
@@ -62,7 +63,6 @@ body{
 	overflow:hidden;
 }
 a{
-	color: #333;
 	text-decoration: none;
 }
 .container{
@@ -81,23 +81,59 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: left;
 }
-.container > header h1{
+.container > header h1 {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
 	line-height: 35px;
-	position: relative;
+	position: fixed;
 	font-weight: 500;
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-.container > header h2, p.info{
+.container > header h1 span {
+    display: block;
+    margin-top: 80vh;
+    top: 95vh;
+    width: 83px;
+    height: 83px;
+    background-image: url("http://1.bp.blogspot.com/-mkWAywrbk34/T_lngxqOtbI/AAAAAAAAAjo/O4u5l0belP8/s1600/rb+back+to+top+2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: .35;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.container > header h1 span:hover {
+    opacity: .7;
+}
+.container > header h2 {
 	font-size: 16px;
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
-div.mia-links {
+.bymia_return  {
+}
+div.bymia-page1 {
+    position: relative;
+    height: 100vh;
+}
+div.bymia-content {
+    position: relative;
+}
+div.bymia-sectiontop {
+    position: relative;
+    margin-top: 10vh;
+    padding-top: 10vh;
+}
+.bymia-section {
+    position: relative;
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: rgba(64, 48, 64, 0.6);
+}
+div.bymia-links {
     z-index: 9999;
     display: inline-block;
     top: 6vh;
@@ -111,36 +147,36 @@ div.mia-links {
 	text-align: center;
 	font-weight: 800;
 }
-div.mia-a {
+div.bymia-a {
     line-height: .52em;
     overflow: hidden;
 }
-div.mia-a a.link-1 span,
-div.mia-a a.link-2 span,
-div.mia-a a.link-3 span,
-div.mia-a a.link-4 span {
+div.bymia-a a.link-1 span,
+div.bymia-a a.link-2 span,
+div.bymia-a a.link-3 span,
+div.bymia-a a.link-4 span {
     display: none;
 }
-div.mia-a a.link-1:hover span,
-div.mia-a a.link-2:hover span,
-div.mia-a a.link-3:hover span,
-div.mia-a a.link-4:hover span {
+div.bymia-a a.link-1:hover span,
+div.bymia-a a.link-2:hover span,
+div.bymia-a a.link-3:hover span,
+div.bymia-a a.link-4:hover span {
     display: inline;
     position: absolute;
 }
-div.mia-a a.link-1 {
+div.bymia-a a.link-1 {
     color: rgba(209, 95, 238, 0.5);
 }
-div.mia-a a.link-2 {
+div.bymia-a a.link-2 {
     color: rgba(209, 95, 238, 0.4);
 }
-div.mia-a a.link-3 {
+div.bymia-a a.link-3 {
     color: rgba(209, 95, 238, 0.3);
 }
-div.mia-a a.link-4 {
+div.bymia-a a.link-4 {
     color: rgba(209, 95, 238, 0.2);
 }
-div.mia-txt {
+div.bymia-txt {
     display: inline-block;
     top: 6vh;
     position: absolute;
@@ -153,29 +189,29 @@ div.mia-txt {
 	text-align: center;
 	font-weight: 800;
 }
-div.mia-menu {
+div.bymia-menu {
     line-height: .52em;
 }
-div.mia-txt a.link-1 span,
-div.mia-txt a.link-2 span,
-div.mia-txt a.link-3 span,
-div.mia-txt a.link-4 span {
+div.bymia-txt a.link-1 span,
+div.bymia-txt a.link-2 span,
+div.bymia-txt a.link-3 span,
+div.bymia-txt a.link-4 span {
     display: none;
 }
-div.mia-txt a.link-1 {
+div.bymia-txt a.link-1 {
     color: rgba(209, 95, 238, 0.8);
 }
-div.mia-txt a.link-2 {
+div.bymia-txt a.link-2 {
     color: rgba(209, 95, 238, 0.7);
 }
-div.mia-txt a.link-3 {
+div.bymia-txt a.link-3 {
     color: rgba(209, 95, 238, 0.6);
 }
-div.mia-txt a.link-4 {
+div.bymia-txt a.link-4 {
     color: rgba(209, 95, 238, 0.5);
 }
 @media screen and (orientation: portrait) {
-    div.mia-links {
+    div.bymia-links {
         z-index: 9999;
         display: inline-block;
         top: 12vh;
@@ -189,11 +225,11 @@ div.mia-txt a.link-4 {
         text-align: center;
         font-weight: 800;
     }
-    div.mia-a {
+    div.bymia-a {
         line-height: .58em;
         overflow: hidden;
     }
-    div.mia-txt {
+    div.bymia-txt {
         display: inline-block;
         top: 12vh;
         position: absolute;
@@ -206,7 +242,7 @@ div.mia-txt a.link-4 {
 	   text-align: center;
 	   font-weight: 800;
     }
-    div.mia-menu {
+    div.bymia-menu {
         line-height: .58em;
     }
 }

@@ -15,9 +15,25 @@
         <link rel="shortcut icon" href="../favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/bymia_main.css" />
         <link rel="stylesheet" type="text/css" href="css/bymia-animation.css" />
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.cssj" />
+        <!--[if IE]>
+            <script type="text/javascript">
+                 var console = { log: function() {} };
+            </script>
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'>
 		<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script|Libre+Baskerville:400italic|Rochester' rel='stylesheet'>
-		<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script	type="text/javascript" src="js/jquery.smint.js" ></script>
+        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready( function() {
+            $('.byMia-links').smint({
+                'scrollSpeed' : 1000
+            });
+        });
+        </script>
     </head>
     <body id="page">
         <ul class="cb-slideshow">
@@ -29,24 +45,39 @@
             <li><span>Image 06</span><div><h3>Pas d'attente!</h3></div></li>
         </ul>
         <div class="container">
-            <header>
-                <div id="#home"><a href="index.html"><h1>ByMia</h1></a></div>
-                <div id="#home" class="mia-links">
-					<div class="mia-a"><a class="link-1" href="#about"><span><img src="images/mia-marker.png"/></span>moi</a></div>
-					<div class="mia-a"><a class="link-2" href="#find-us"><span><img src="images/mia-marker.png"/></span>tentés</a></div>
-					<div class="mia-a"><a class="link-3" href="#prices-services"><span><img src="images/mia-marker.png"/></span>tarifs</a></div>
-					<div class="mia-a"><a class="link-4" href="blog.html"><span><img src="images/mia-marker.png"/></span>blog</a></div>
+            <header id="home" >
+                <div><a href="#home"><h1>ByMia<span></span></h1></a></div>
+                <div class="bymia-links">
+                    <div class="bymia-a"><a class="link-1" href="#about"><span><img src="images/mia-marker.png"/></span>moi</a></div>
+                    <div class="bymia-a"><a class="link-2" href="#find-us"><span><img src="images/mia-marker.png"/></span>tentés</a></div>
+                    <div class="bymia-a"><a class="link-3" href="#prices-services"><span><img src="images/mia-marker.png"/></span>tarifs</a></div>
+                    <div class="bymia-a"><a class="link-4" href="blog.html"><span><img src="images/mia-marker.png"/></span>blog</a></div>
                 </div>
-                <div class="mia-txt">
-					<div class="mia-menu"><a class="link-1" href="#home">moi</a></div>
-					<div class="mia-menu"><a class="link-2" href="#home">tentés</a></div>
-					<div class="mia-menu"><a class="link-3" href="#home">tarifs</a></div>
-					<div class="mia-menu"><a class="link-4" href="#home">blog</a></div>
+                <div class="bymia-txt">
+                    <div class="bymia-menu"><a class="link-1" href="#home">moi</a></div>
+                    <div class="bymia-menu"><a class="link-2" href="#home">tentés</a></div>
+                    <div class="bymia-menu"><a class="link-3" href="#home">tarifs</a></div>
+                    <div class="bymia-menu"><a class="link-4" href="#home">blog</a></div>
                 </div>
             </header>
-            <div id="#about" class="bymia-about"></div>
-            <div id="#find-us" class="bymia-find"></div>
-            <div id="#prices-services" class="bymia-prices"></div>
+            <div class="bymia-page1"></div>
+            <div class="bymia-content">
+                <div id="about" class="bymia-sectiontop"></div>
+                <div class="bymia-section">
+                    <h2>Test page text</h2>
+                </div>
+                <div id="find-us" class="bymia-sectiontop"></div>
+                <div class="bymia-section">
+                    <h2>Test page text</h2>
+                </div>
+                <div id="prices-services" class="bymia-sectiontop"></div>
+                <div class="bymia-section">
+                    <h2>Test page text</h2>
+                </div>
+                <div class="bymia-sectiontop"></div>
+                <div id="blog" class="bymia-section">
+                </div>
+            </div>
         </div>
     </body>
 </html>
