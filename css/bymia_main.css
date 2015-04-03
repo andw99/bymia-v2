@@ -129,7 +129,7 @@ div.bymia-links {
     display: inline-block;
     top: 6vh;
     position: absolute;
-    margin-left:20%;
+    margin-left:10%;
     width: 60%;
     font-family: Georgia;
 	font-size: 100px;
@@ -172,7 +172,7 @@ div.bymia-txt {
     display: inline-block;
     top: 6vh;
     position: absolute;
-    margin-left:20%;
+    margin-left:10%;
     width: 60%;
     font-family: Georgia;
 	font-size: 100px;
@@ -209,7 +209,7 @@ div.bymia-txt a.link-4 {
         display: inline-block;
         top: 12vh;
         position: absolute;
-        margin-left: -5%;
+        margin-left: -10%;
         width: 100%;
         font-family: Georgia;
         font-size: 100px;
@@ -226,7 +226,7 @@ div.bymia-txt a.link-4 {
         display: inline-block;
         top: 12vh;
         position: absolute;
-        margin-left: -5%;
+        margin-left: -10%;
         width: 100%;
         font-family: Georgia;
 	   font-size: 100px;
