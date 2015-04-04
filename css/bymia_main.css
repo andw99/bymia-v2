@@ -168,16 +168,16 @@ span.home-img:hover {
     text-decoration: none;
 }
 .bymia-a a.link-1 {
-    color: rgba(255, 128, 255, 0.5);
+    color: rgba(222, 0, 222, 0.5);
 }
 .bymia-a a.link-2 {
-    color: rgba(255, 128, 255, 0.5);
+    color: rgba(222, 0, 222, 0.5);
 }
 .bymia-a a.link-3 {
-    color: rgba(255, 128, 255, 0.5);
+    color: rgba(222, 0, 222, 0.5);
 }
 .bymia-a a.link-4 {
-    color: rgba(255, 128, 255, 0.5);
+    color: rgba(222, 0, 222, 0.5);
 }
 .bymia-txt {
     display: inline-block;
@@ -192,8 +192,7 @@ span.home-img:hover {
 	text-align: center;
 	font-weight: 800;
     line-height: .52em;
-    color: rgba(255, 128, 255, 0.5);
-    text-shadow: 2px 2px 2px #111;
+    color: rgba(222, 0, 222, 0.8);
 }
 @media screen and (orientation: portrait) {
     .bymia-links {
