@@ -68,7 +68,7 @@ a{
 	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
     text-align: left;
 }
 .container > header h1 {
@@ -168,16 +168,20 @@ span.home-img:hover {
     text-decoration: none;
 }
 .bymia-a a.link-1 {
-    color: rgba(222, 0, 222, 0.5);
+    color: rgba(139, 26, 137, 0.5);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 }
 .bymia-a a.link-2 {
-    color: rgba(222, 0, 222, 0.5);
+    color: rgba(139, 26, 137, 0.5);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 }
 .bymia-a a.link-3 {
-    color: rgba(222, 0, 222, 0.5);
+    color: rgba(139, 26, 137, 0.5);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 }
 .bymia-a a.link-4 {
-    color: rgba(222, 0, 222, 0.5);
+    color: rgba(139, 26, 137, 0.5);
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
 }
 .bymia-txt {
     display: inline-block;
@@ -192,7 +196,8 @@ span.home-img:hover {
 	text-align: center;
 	font-weight: 800;
     line-height: .52em;
-    color: rgba(222, 0, 222, 0.8);
+    color: rgba(139, 26, 137, 0.6);
+	text-shadow: 1px 1px 1px rgba(255,255,255,.6);
 }
 @media screen and (orientation: portrait) {
     .bymia-links {
