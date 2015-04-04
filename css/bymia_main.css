@@ -72,6 +72,15 @@ a{
     text-align: left;
 }
 .container > header h1 {
+    font-family: 'Pinyon Script', cursive;
+	font-size: 72px;
+	line-height: 35px;
+	position: fixed;
+	font-weight: 500;
+	color: #ddd;
+    text-shadow: 2px 2px 5px #cb70df;
+}
+.container > header h1 span.h1-txt {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
@@ -81,20 +90,42 @@ a{
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-.container > header h1 span {
+.container > header h1 span.h1-txt:hover {
+    text-shadow: 2px 2px 5px #fff;
+}
+.container > header h1 span.h1-img {
     display: block;
     margin-top: 80vh;
     top: 95vh;
-    width: 83px;
-    height: 83px;
+    width: 40px;
+    height: 40px;
     background-image: url("http://1.bp.blogspot.com/-mkWAywrbk34/T_lngxqOtbI/AAAAAAAAAjo/O4u5l0belP8/s1600/rb+back+to+top+2.png");
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: contain;
     opacity: .35;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
-.container > header h1 span:hover {
+.container > header h1 span.h1-img:hover {
     opacity: .7;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    text-decoration: none;
+}
+span.home-img {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-image: url("http://1.bp.blogspot.com/-mkWAywrbk34/T_lngxqOtbI/AAAAAAAAAjo/O4u5l0belP8/s1600/rb+back+to+top+2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    opacity: .35;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+span.home-img:hover {
+    opacity: .7;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     text-decoration: none;
 }
 .container > header h2 {

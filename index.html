@@ -22,8 +22,27 @@
         <![endif]-->
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'>
 		<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script|Libre+Baskerville:400italic|Rochester' rel='stylesheet'>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+        <script type="text/javascript">
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 750);
+                return false;
+              }
+            }
+          });
+        });
+        </script>
     </head>
+
     <body id="page">
         <ul class="cb-slideshow">
             <li><span>Image 01</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
@@ -35,7 +54,7 @@
         </ul>
         <div class="container">
             <header id="home" >
-                <div><a href="#home"><h1>ByMia<span></span></h1></a></div>
+                <div><a href="#home"><h1><span class="h1-txt">ByMia</span></h1></a></div>
                 <div class="bymia-links">
                     <div class="bymia-a"><a class="link-1" href="#about"><span><img src="images/mia-marker.png"/></span>moi</a></div>
                     <div class="bymia-a"><a class="link-2" href="#find-us"><span><img src="images/mia-marker.png"/></span>tentés</a></div>
@@ -54,14 +73,17 @@
                 <div id="about" class="bymia-sectiontop"></div>
                 <div class="bymia-section">
                     <h2>Test page text</h2>
+                    <div><a href="#home"><span class="home-img"></span></a></div>
                 </div>
                 <div id="find-us" class="bymia-sectiontop"></div>
                 <div class="bymia-section">
                     <h2>Test page text</h2>
+                    <div><a href="#home"><span class="home-img"></span></a></div>
                 </div>
                 <div id="prices-services" class="bymia-sectiontop"></div>
                 <div class="bymia-section">
                     <h2>Test page text</h2>
+                    <div><a href="#home"><span class="home-img"></span></a></div>
                 </div>
                 <div class="bymia-sectiontop"></div>
                 <div id="blog" class="bymia-section">
