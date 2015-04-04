@@ -116,16 +116,14 @@ span.home-img:hover {
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
-.bymia_return  {
-}
-div.bymia-page1 {
+.bymia-page1 {
     position: relative;
     height: 100vh;
 }
-div.bymia-content {
+.bymia-content {
     position: relative;
 }
-div.bymia-sectiontop {
+.bymia-sectiontop {
     position: relative;
     margin-top: 10vh;
     padding-top: 10vh;
@@ -137,7 +135,7 @@ div.bymia-sectiontop {
     margin-left: 10vw;
     background-color: rgba(64, 48, 64, 0.6);
 }
-div.bymia-links {
+.bymia-links {
     z-index: 9999;
     display: inline-block;
     top: 6vh;
@@ -151,34 +149,34 @@ div.bymia-links {
 	text-align: center;
 	font-weight: 800;
 }
-div.bymia-a {
+.bymia-a {
     line-height: .52em;
     overflow: hidden;
 }
-div.bymia-a a.link-1 span,
-div.bymia-a a.link-2 span,
-div.bymia-a a.link-3 span,
-div.bymia-a a.link-4 span {
+.bymia-a a.link-1 span,
+.bymia-a a.link-2 span,
+.bymia-a a.link-3 span,
+.bymia-a a.link-4 span {
     display: none;
 }
-div.bymia-a a.link-1:hover span,
-div.bymia-a a.link-2:hover span,
-div.bymia-a a.link-3:hover span,
-div.bymia-a a.link-4:hover span {
+.bymia-a a.link-1:hover span,
+.bymia-a a.link-2:hover span,
+.bymia-a a.link-3:hover span,
+.bymia-a a.link-4:hover span {
     display: inline;
     position: absolute;
     text-decoration: none;
 }
-div.bymia-a a.link-1 {
+.bymia-a a.link-1 {
     color: rgba(255, 128, 255, 0.2);
 }
-div.bymia-a a.link-2 {
+.bymia-a a.link-2 {
     color: rgba(255, 128, 255, 0.2);
 }
-div.bymia-a a.link-3 {
+.bymia-a a.link-3 {
     color: rgba(255, 128, 255, 0.2);
 }
-div.bymia-a a.link-4 {
+.bymia-a a.link-4 {
     color: rgba(255, 128, 255, 0.2);
 }
 .bymia-txt {
@@ -214,7 +212,7 @@ div.bymia-a a.link-4 {
     color: rgba(209, 95, 238, 0.5);
 }
 @media screen and (orientation: portrait) {
-    div.bymia-links {
+    .bymia-links {
         z-index: 9999;
         display: inline-block;
         top: 12vh;
@@ -229,11 +227,11 @@ div.bymia-a a.link-4 {
         font-weight: 800;
         text-decoration: none;
     }
-    div.bymia-a {
+    .bymia-a {
         line-height: .58em;
         overflow: hidden;
     }
-    div.bymia-txt {
+    .bymia-txt {
         display: inline-block;
         top: 12vh;
         position: absolute;
@@ -247,14 +245,5 @@ div.bymia-a a.link-4 {
         font-weight: 800;
         text-decoration: none;
         line-height: .58em;
-    }
-    .container > header h1 {
-        font-family: 'Pinyon Script', cursive;
-        font-size: 48px;
-        line-height: 35px;
-        position: fixed;
-        font-weight: 500;
-        color: #ddd;
-        text-shadow: 2px 2px 5px #cb70df;
     }
 }
