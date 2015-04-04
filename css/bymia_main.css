@@ -248,4 +248,13 @@ div.bymia-a a.link-4 {
         text-decoration: none;
         line-height: .58em;
     }
+    .container > header h1 {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 48px;
+        line-height: 35px;
+        position: fixed;
+        font-weight: 500;
+        color: #ddd;
+        text-shadow: 2px 2px 5px #cb70df;
+    }
 }
