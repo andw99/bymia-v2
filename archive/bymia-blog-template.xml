@@ -724,58 +724,151 @@ head.appendChild(script);
     </div>
   </b:if>
 
-        <ul class='cb-slideshow'>
+        <ul class="cb-slideshow">
             <li><span>Image 01</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
             <li><span>Image 02</span><div><h3>Uniquement sur RDV</h3></div></li>
-            <li><span>Image 03</span><div><h3>Pas d&#39;attente!</h3></div></li>
+            <li><span>Image 03</span><div><h3>Pas d'attente!</h3></div></li>
             <li><span>Image 04</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
             <li><span>Image 05</span><div><h3>Uniquement sur RDV</h3></div></li>
-            <li><span>Image 06</span><div><h3>Pas d&#39;attente!</h3></div></li>
+            <li><span>Image 06</span><div><h3>Pas d'attente!</h3></div></li>
         </ul>
-        <div class='container'>
-            <header id='home'>
-                <div><a href='#home'><h1><span class='h1-txt'>ByMia</span></h1></a></div>
-                <div class='bymia-links'>
-                    <div class='bymia-a'><a class='link-1' href='#about'><span><img src='https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png'/></span>moi</a></div>
-                    <div class='bymia-a'><a class='link-2' href='#find-us'><span><img src='https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png'/></span>tentés</a></div>
-                    <div class='bymia-a'><a class='link-3' href='#prices-services'><span><img src='https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png'/></span>tarifs</a></div>
-                    <div class='bymia-a'><a class='link-4' href='blog.html'><span><img src='https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png'/></span>blog</a></div>
+        <div class="container">
+            <header id="home" >
+                <div><a href="#home"><h1><span class="h1-txt">ByMia</span></h1></a></div>
+                <div class="bymia-links">
+                    <div class="bymia-a"><a class="link-1" href="#about"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>moi</a></div>
+                    <div class="bymia-a"><a class="link-2" href="#find-us"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>tentés</a></div>
+                    <div class="bymia-a"><a class="link-3" href="#prices-services"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>tarifs</a></div>
+                    <div class="bymia-a"><a class="link-4" href="#blog"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>blog</a></div>
                 </div>
-                <div class='bymia-txt'>
-                    <div class='bymia-menu-1'>moi</div>
-                    <div class='bymia-menu-2'>tentés</div>
-                    <div class='bymia-menu-3'>tarifs</div>
-                    <div class='bymia-menu-4'>blog</div>
+                <div class="bymia-txt">
+                    <div class="bymia-menu-1">moi</div>
+                    <div class="bymia-menu-2">tentés</div>
+                    <div class="bymia-menu-3">tarifs</div>
+                    <div class="bymia-menu-4">blog</div>
                 </div>
             </header>
-            <div class='bymia-page1'/>
-            <div class='bymia-content'>
-                <div class='bymia-sectiontop' id='about'/>
+            <div class="bymia-page1"></div>
+            <div class="bymia-content">
                 <div class='bymia-section'>
-                    <p><h3>Si vous en avez assez de perdre votre temps dans les salons classiques...<br/>
+                    <p id="about"><h2>Presentation</h2></p>
+                    <p><h4>Si vous en avez assez de perdre votre temps dans les salons classiques...<br/>
                     Si vous n'aimez pas l'effervescence et le brouhaha...<br/>
-                    Si vous n'appreciez plus d'avoir la même allure que le fauteuil voisin...<br/></h3>
+                    Si vous n'appreciez plus d'avoir la même allure que le fauteuil voisin...<br/></h4>
                     </p>
                     <p><h3>Et Bien</h3></p>
-                    <p><h3>Je vous propose un service sur mesure loin des regards indiscrets et des oreilles qui trainent.<br/>
+                    <p><h4>Je vous propose un service sur mesure loin des regards indiscrets et des oreilles qui trainent.<br/>
                     Un respect de votre timing, vous savez a quel heure vous arrivez et l'heure de votre départ.<br/>
                     Je propose mes services individuellement, pas d'attente!!! Que du cocooning et une prise en charge de votre bien-être.<br/>
-                    Je propose aussi du conseil make-up... le mise en valeur par quelques gestes simple de votre beauté, tous types, toutes origines.<br/></h3>
+                    Je propose aussi du conseil make-up... le mise en valeur par quelques gestes simple de votre beauté, tous types, toutes origines.<br/></h4>
                     </p>
+                    <p><h3>Tenté??</h3></p>
+        			<p><h4>P.S. je vous attends pour partager un café<br/></h4></p>
                     <div><a href='#home'><span class='home-img'/></a></div>
                 </div>
-                <div class='bymia-sectiontop' id='find-us'/>
-                <div class='bymia-section'>
-                    <h2>Test page text</h2>
+                <div class="bymia-section-alt">
+                    <p id="find-us"><h2>Contactez-moi</h2></p>
+                    <p><h3>.</h3></p>
+                    <p><h3>Phone : 06.12.26.64.96</h3></p>
+                    <p><h3>.</h3></p>
+                    <p><h3>127 rue Breteuil, Marseille 13006</h3></p>
+                    <p><h3>Parking public Montevideo a proximité</h3></p>
+                    <p><h3>.</h3></p>
+                    <div class="map-link">
+                        <a class="th4" target="_blank" href="https://www.google.com/maps/place/127+Rue+Breteuil/@43.2866141,5.3774283,17z/data=!3m1!4b1!4m2!3m1!1s0x12c9c0b6c70acaa9:0xd83eb11a6a56462dhttps://www.google.com/maps/place/127+Rue+Breteuil/@43.2866141,5.3774283,17z/data=!3m1!4b1!4m2!3m1!1s0x12c9c0b6c70acaa9:0xd83eb11a6a56462d">suivre moi ... By Mia</a>
+                    </div>
                     <div><a href='#home'><span class='home-img'/></a></div>
                 </div>
-                <div class='bymia-sectiontop' id='prices-services'/>
-                <div class='bymia-section'>
-                    <h2>Test page text</h2>
-                    <div><a href='#home'><span class='home-img'/></a></div>
+                <div class="bymia-section">
+                    <p id="prices-services"><h2>Prestation</h2></p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="pad"></th>
+                                <th class="descr">Services</th>
+                                <th></th>
+                                <th class="prix">€</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Shampoing Brush</td>
+                                <td></td>
+                                <td class="th4">25 - 35</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Shampoing Coupe Brush</td>
+                                <td></td>
+                                <td class="th4">40 - 50</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Couleur</td>
+                                <td></td>
+                                <td class="th4">30</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Balayage</td>
+                                <td></td>
+                                <td class="th4">40 - 90</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Balayage ombré</td>
+                                <td></td>
+                                <td class="th4">50</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Forfait Relax</td>
+                                <td></td>
+                                <td class="th4">60 - 80</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="pad"></th>
+                                <th class="descr">mes plus</th>
+                                <th></th>
+                                <th class="prix">...</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Attache</td>
+                                <td></td>
+                                <td class="th4">50</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Chignons a partir de</td>
+                                <td></td>
+                                <td class="th4">60</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Soin... produit naturel avec ingredients secrets</td>
+                                <td></td>
+                                <td class="th4">10</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="th4">Conseil maquillage personalisé... avec produits à avoir</td>
+                                <td></td>
+                                <td class="th4">15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div><a href="#home"><span class="home-img"></span></a></div>
                 </div>
-                <div class='bymia-sectiontop'/>
-                <div class='bymia-section' id='blog'>
+                <div class="bymia-sectiontop"></div>
+                <div id="blog" class="bymia-section">
                 </div>
             </div>
         </div>
