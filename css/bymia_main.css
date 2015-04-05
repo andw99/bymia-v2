@@ -135,6 +135,12 @@ span.home-img:hover {
     margin-left: 10vw;
     background-color: rgba(64, 48, 64, 0.6);
 }
+.bymia-section > h3 {
+	font-size: 16px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+}
 .bymia-links {
     z-index: 9999;
     display: inline-block;
