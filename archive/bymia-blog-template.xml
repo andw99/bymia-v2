@@ -752,15 +752,15 @@ head.appendChild(script);
             <div class='bymia-content'>
                 <div class='bymia-sectiontop' id='about'/>
                 <div class='bymia-section'>
-                    <p><h3>Si vous en avez assez de perdre votre temps dans les salons classiques...<br>
-                    Si vous n'aimez pas l'effervescence et le brouhaha...<br>
-                    Si vous n'appreciez plus d'avoir la même allure que le fauteuil voisin...<br></h3>
+                    <p><h3>Si vous en avez assez de perdre votre temps dans les salons classiques...<br/>
+                    Si vous n'aimez pas l'effervescence et le brouhaha...<br/>
+                    Si vous n'appreciez plus d'avoir la même allure que le fauteuil voisin...<br/></h3>
                     </p>
                     <p><h3>Et Bien</h3></p>
-                    <p><h3>Je vous propose un service sur mesure loin des regards indiscrets et des oreilles qui trainent.<br>
-                    Un respect de votre timing, vous savez a quel heure vous arrivez et l'heure de votre départ.<br>
-                    Je propose mes services individuellement, pas d'attente!!! Que du cocooning et une prise en charge de votre bien-être.<br>
-                    Je propose aussi du conseil make-up... le mise en valeur par quelques gestes simple de votre beauté, tous types, toutes origines.<br></h3>
+                    <p><h3>Je vous propose un service sur mesure loin des regards indiscrets et des oreilles qui trainent.<br/>
+                    Un respect de votre timing, vous savez a quel heure vous arrivez et l'heure de votre départ.<br/>
+                    Je propose mes services individuellement, pas d'attente!!! Que du cocooning et une prise en charge de votre bien-être.<br/>
+                    Je propose aussi du conseil make-up... le mise en valeur par quelques gestes simple de votre beauté, tous types, toutes origines.<br/></h3>
                     </p>
                     <div><a href='#home'><span class='home-img'/></a></div>
                 </div>
