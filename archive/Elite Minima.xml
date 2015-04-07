@@ -251,13 +251,12 @@ h5 {
 }
 
 #container {
-	background: rgba(64, 48, 64, 0.8);
-    margin-left: 20vw;
-    width: 60vw;
+    background: rgba(64, 48, 64, 0.8);
+    margin-left: 10vw;
+    width: 80vw;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
 	border-top-right-radius: 18px;
-
 	-webkit-box-shadow: 0px 0px 6px #C1BFBF;
 	-moz-box-shadow: 0px 0px 6px #C1BFBF;
 	box-shadow: 0px 0px 6px #C1BFBF;
@@ -1120,6 +1119,7 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
         </div>
 
 <div id='body-hack'/>
+<div id="blog" class="bymia-section-alt">
     <div class='container_12' id='container'>
         <div class='grid_12' id='heaader-wrapper'>
             <b:section id='headerw' maxwidgets='1' showaddelement='no'>
@@ -2430,6 +2430,7 @@ removeRelatedDuplicates(); printRelatedLabels();
         </div>
      <div style='clear:both;'/>
     </div>
+</div>
 <div style='clear:both;'/>
 </body>
 </html>

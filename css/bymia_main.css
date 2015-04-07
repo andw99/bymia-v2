@@ -204,6 +204,13 @@ span.home-img:hover {
     color: #d0d0d0;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
 }
+.bymia-section-blog {
+    position: relative;
+    padding-bottom: 5vh;
+    text-align: left;
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .map-link {
     text-align: center;
 }
