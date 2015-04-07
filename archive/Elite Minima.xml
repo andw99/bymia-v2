@@ -979,7 +979,7 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
         </ul>
         <div class="bymia-container">
             <header id="home">
-                <div><a href="#home"><h1><span class="h1-txt" >ByMia</span></h1></a></div>
+                <div><a class="h1-txt" href="#home"><h1><span>ByMia</span></h1></a></div>
                 <div class="bymia-links">
                     <div class="bymia-a"><a class="link-1" href="#about"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>moi</a></div>
                     <div class="bymia-a"><a class="link-2" href="#find-us"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>tentés</a></div>
