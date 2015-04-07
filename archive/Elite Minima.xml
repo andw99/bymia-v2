@@ -58,7 +58,7 @@
 <Group description="Elite Page" selector="body">
     <Variable name="body.font" description="Font" type="font" default=" normal 13px 'Open Sans', sans-serif" value=" normal 13px 'Open Sans', sans-serif"/>
     <Variable name="body.background.color" description="Elite Background Color" type="color" default="#F3E8E8" value="#F3E8E8"/>
-    <Variable name="body.text.color" description="Elite Text Color" type="color" default="#c000c0" value="#c000c0"/>
+    <Variable name="body.text.color" description="Elite Text Color" type="color" default="#fbedff" value="#fbedff"/>
     <Variable name="body.background" description="Elite Body Background" type="background" color="$(body.background.color)" default="$(color) none repeat fixed top center" value="$(color) none repeat fixed top center"/>
 </Group>
 <Group description="Elite Links" selector="a">
@@ -66,15 +66,15 @@
     <Variable name="link.hover.color" description="Elite Hover Color" type="color" default="#1C3072" value="#1C3072"/>
 </Group>
 <Group description="Elite Header Title" selector="#heaader-wrapper h1">
-    <Variable name="header.font" description="Title Font" type="font" default="normal 52px Parisienne" value="normal 52px Parisienne"/>
+    <Variable name="header.font" description="Title Font" type="font" default="normal 52px Parisienne" value="normal 52px 'Pinyon Script'"/>
     <Variable name="header.text.color" description="Title Color" type="color" default="$(body.text.color)"  value="$(body.text.color)"/>
 </Group>
 <Group description="Elite Post Title" selector="h3.post-title">
-    <Variable name="post.title.font" description="Post Title Font" type="font" default="bold 38px 'Parisienne',sans-serif" value="bold 38px 'Parisienne',sans-serif"/>
+    <Variable name="post.title.font" description="Post Title Font" type="font" default="bold 38px 'Parisienne',sans-serif" value="normal 38px 'Pinyon Script',sans-serif"/>
     <Variable name="post.title.color" description="Post Title Color" type="color" default="$(body.text.color)"  value="$(body.text.color)"/>
 </Group>
 <Group description="Elite Widget Title" selector=".widget h2">
-    <Variable name="widget.title.font" description="Widget Title Font" type="font" default="normal 30px 'Parisienne', sans-serif" value="normal 30px 'Parisienne', sans-serif"/>
+    <Variable name="widget.title.font" description="Widget Title Font" type="font" default="normal 30px 'Parisienne', sans-serif" value="normal 30px 'Pinyon Script', sans-serif"/>
     <Variable name="widget.title.color" description="Widget Title Color" type="color" default="$(body.text.color)"  value="$(body.text.color)"/>
 </Group>
 <Group description="Elite Container" selector="#container">
@@ -227,12 +227,14 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 	font-size: 38px;
-	font-family: "Parisienne";
+	font-family: "Pinyon Script";
+    text-shadow: 2px 2px 5px #cb70df;    
 }
 
 h2 {
 	font-size: 34px;
-	font-family: "Parisienne";
+	font-family: "Pinyon Script";
+    text-shadow: 2px 2px 5px #cb70df;    
 }
 
 h3 {
@@ -252,8 +254,7 @@ h5 {
 
 #container {
     background: rgba(64, 48, 64, 0.8);
-    margin-left: 10vw;
-    width: 80vw;
+    width: 75vw;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
 	border-top-right-radius: 18px;
@@ -2425,8 +2426,7 @@ removeRelatedDuplicates(); printRelatedLabels();
         </div>
         <div class='grid_12' id='credits'>
           <p style='float:left;'>&amp;copy; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <strong><data:blog.title/></strong>, AllRightsReserved.</p>
-          <!-- Humble Request:: Please Do not remove these Designer Link and Support the Designer. Thank You!! -->
-          <p style='float:right;'>Designed by <a href='http://www.screenwritersarena.com/' title='Screenwriting And Screenwriters-Script Writing,Film Making '>ScreenWritersArena</a></p>
+          <p style='float:right;'>Designed by <a href='http://www.linkedin.com/in/aswalker' title='Technical Program Manager, Principal Product Manager, website creator'>andw99</a></p>
         </div>
      <div style='clear:both;'/>
     </div>
