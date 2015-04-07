@@ -84,11 +84,11 @@ a{
     font-style: italic;
     float: right;
     color: #cb70df;
-    text-shadow: 2px 2px 2px #fbedff;
+    text-shadow: 2px 2px 2px #fff;
     margin-right: 10vw;
 }
 .bymia-container > header h2:hover {
-    text-shadow: 2px 2px 5px #fff;
+    text-shadow: 2px 2px 5px #f0f;
 }
 a.h1-txt > span {
     width: 240px;
