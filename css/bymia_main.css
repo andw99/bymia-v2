@@ -87,7 +87,9 @@ a{
     text-shadow: 2px 2px 5px #fbedff;
     margin-right: 10vw;
 }
-
+a.h2 > span:hover {
+    text-shadow: 2px 2px 5px #fff;
+}
 a.h1-txt > span {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
@@ -99,20 +101,6 @@ a.h1-txt > span {
     text-shadow: 2px 2px 5px #cb70df;
 }
 a.h1-txt > span:hover {
-    text-shadow: 2px 2px 5px #fff;
-}
-a.h2-txt > span {
-    width: 240px;
-    font-family: 'Georgia', serif;
-	font-size: 72px;
-    font-style: italic;
-    line-height: 1.2em;
-    float: right;
-    margin-left: 20vh;
-    color: #cb70df;
-    text-shadow: 2px 2px 5px #fbedff;
-}
-a.h2-txt > span:hover {
     text-shadow: 2px 2px 5px #fff;
 }
 span.home-img {
