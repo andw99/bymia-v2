@@ -2314,7 +2314,7 @@ $(&#39;#BackToTop&#39;).click(function() { $(&#39;body,html&#39;).animate({scrol
 </div>
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<script src='https://arlina-design.googlecode.com/svn/viewme.js'/>
+<script src='https://cdn.rawgit.com/andw99/bymia-v2/master/js/bymia.js'/>
 <script type='text/javascript'> $(&quot;ul#relpost_img_sum li img&quot;).each(function () {    $(this).attr(&quot;src&quot;, $(this).attr(&quot;src&quot;).replace(/\/s[0-9]+(\-c)?\//, &quot;/w150-h120-c/&quot;)) }); </script>
 </b:if>
 
