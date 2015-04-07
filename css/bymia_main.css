@@ -206,10 +206,10 @@ span.home-img:hover {
 }
 .bymia-section-blog {
     position: relative;
-    padding-bottom: 5vh;
+    margin-left: 5vw;
     text-align: left;
     clear: both;
-    background-color: transparent;
+    background: rgba(64, 48, 64, 0.1);
 }
 .map-link {
     text-align: center;

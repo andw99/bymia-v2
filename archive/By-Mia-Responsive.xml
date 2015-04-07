@@ -255,7 +255,7 @@ h5 {
 }
 
 #container {
-    background: rgba(64, 48, 64, 0.8);
+    background: rgba(64, 48, 64, 0.4);
     width: 80vw;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
