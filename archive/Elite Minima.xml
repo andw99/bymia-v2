@@ -253,7 +253,6 @@ h5 {
 #container {
 	background: rgba(64, 48, 64, 0.8);
 	width: 80vw;
-	padding: 2%;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
 	border-top-right-radius: 18px;
@@ -969,12 +968,6 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
 </script>
 </head>
 <body>
-<div id='body-hack'/>
-    <div class='container_12' id='container'>
-        <div class='grid_12' id='heaader-wrapper'>
-            <b:section id='headerw' maxwidgets='1' showaddelement='no'>
-<b:widget id='Header1' locked='true' title='Elite Minima (Header)' type='Header'>
-<b:includable id='main'>
 
         <ul class="cb-slideshow">
             <li><span>Image 01</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
@@ -1124,6 +1117,13 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
                 </div>
             </div>
         </div>
+
+<div id='body-hack'/>
+    <div class='container_12' id='container'>
+        <div class='grid_12' id='heaader-wrapper'>
+            <b:section id='headerw' maxwidgets='1' showaddelement='no'>
+<b:widget id='Header1' locked='true' title='Elite Minima (Header)' type='Header'>
+<b:includable id='main'>
 
   <b:if cond='data:useImage'>
     <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
