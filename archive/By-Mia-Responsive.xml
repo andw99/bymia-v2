@@ -255,7 +255,7 @@ h5 {
 }
 
 #container {
-    background: rgba(64, 48, 64, 0.4);
+    background: rgba(64, 48, 64, 0.6);
     width: 80vw;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
@@ -285,6 +285,11 @@ h5 {
 }
 #mainnav {
 	text-align: center;
+    font-family: Georgia, Times, serif;
+	font-size: 26px;
+    font-weight: 800;
+	font-style: italic;
+    text-shadow: 2px 2px 5px #cb70df;
 }
 
 #mainnav ul {
