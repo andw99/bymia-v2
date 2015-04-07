@@ -10,7 +10,7 @@
     </b:if>
     <b:include data='blog' name='all-head-content'/>
 	<b:if cond='data:blog.pageType == &quot;index&quot;'>
-	<title><data:blog.pageTitle/></title> 
+	<title><data:blog.pageTitle/></title>
 	<b:else/>
 	<title><data:blog.pageName/> ~ <data:blog.title/></title>
 	</b:if>
@@ -105,7 +105,7 @@ sub,sup{line-height:0;position:relative;vertical-align:baseline;}
 sub{bottom:-.25em;}
 sup{top:-.5em;}
 svg{overflow:hidden;}
-  
+
 
 /*  Grid */
 .container_12,.container_16{width:92%;margin-left:4%;margin-right:4%;}
@@ -228,13 +228,13 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
 	font-size: 38px;
 	font-family: "Pinyon Script";
-    text-shadow: 2px 2px 5px #cb70df;    
+    text-shadow: 2px 2px 5px #cb70df;
 }
 
 h2 {
 	font-size: 34px;
 	font-family: "Pinyon Script";
-    text-shadow: 2px 2px 5px #cb70df;    
+    text-shadow: 2px 2px 5px #cb70df;
 }
 
 h3 {
@@ -675,7 +675,7 @@ ul.way2blogging-social li.way2blogging-technorati { background-image:url("http:/
 	padding: 3px 5px;
         margin:10px auto;
         width:250px;
-	
+
 	-webkit-border-radius: 2em;
 	-moz-border-radius: 2em;
 	border-radius: 2em;
@@ -819,21 +819,21 @@ img_thumb_width = 260;
 </script>
 <script type='text/javascript'>
     /*<![CDATA[*/
-    function removeHtmlTag(strx,chop){ 
+    function removeHtmlTag(strx,chop){
 	if(strx.indexOf("<")!=-1)
 	{
-		var s = strx.split("<"); 
-		for(var i=0;i<s.length;i++){ 
-			if(s[i].indexOf(">")!=-1){ 
-				s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length); 
-			} 
-		} 
-		strx =  s.join(""); 
+		var s = strx.split("<");
+		for(var i=0;i<s.length;i++){
+			if(s[i].indexOf(">")!=-1){
+				s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length);
+			}
+		}
+		strx =  s.join("");
 	}
-	chop = (chop < strx.length-1) ? chop : strx.length-2; 
-	while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++; 
-	strx = strx.substring(0,chop-1); 
-	return strx+'...'; 
+	chop = (chop < strx.length-1) ? chop : strx.length-2;
+	while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++;
+	strx = strx.substring(0,chop-1);
+	return strx+'...';
 }
 
 function createSummaryAndThumb(pID){
@@ -841,11 +841,11 @@ function createSummaryAndThumb(pID){
 	var imgtag = "";
 	var img = div.getElementsByTagName("img");
 	var summ = summary_noimg;
-	if(img.length>=1) {	
+	if(img.length>=1) {
 		imgtag = '<span style="float:left; padding:0px 10px 5px 0px;width:'+img_thumb_width+'px;height:'+img_thumb_height+'px;"><img src="'+img[0].src+'" width="'+img_thumb_width+'" height="'+img_thumb_height+'"/></span>';
 		summ = summary_img;
 	}
-	
+
 	var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
 	div.innerHTML = summary;
 }
@@ -1576,7 +1576,7 @@ createSummaryAndThumb(&quot;summary<data:post.id/>&quot;);
             </b:if>
           </b:if>
         </b:if>
-      </span> 
+      </span>
 <span class='post-labels'>
         <b:if cond='data:post.labels'>
           <data:postLabelsLabel/>
@@ -1619,8 +1619,8 @@ removeRelatedDuplicates(); printRelatedLabels();
         <b:if cond='data:post.sharePostUrl'>
           <b:include data='post' name='shareButtons'/>
         </b:if>
-      </div> 
- 
+      </div>
+
 
 <!-- Feature added by BTemplates.com -->
 	<b:if cond='data:top.showReactions'>
