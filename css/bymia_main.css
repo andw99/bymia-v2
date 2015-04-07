@@ -97,8 +97,8 @@ a.h2-txt > span {
 	font-size: 72px;
     font-style: italic;
     line-height: 1.2em;
+    float: right;
     margin-left: 20vh;
-	position: fixed;
     color: #cb70df;
     text-shadow: 2px 2px 5px #fbedff;
 }
