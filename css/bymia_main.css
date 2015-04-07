@@ -91,6 +91,20 @@ a.h1-txt > span {
 a.h1-txt > span:hover {
     text-shadow: 2px 2px 5px #fff;
 }
+a.h2-txt > span {
+    width: 240px;
+    font-family: ''Georgia', serif;
+	font-size: 72px;
+    font-style: italic;
+    line-height: 1.2em;
+    margin-left: 20vh;
+	position: fixed;
+    color: #cb70df;
+    text-shadow: 2px 2px 5px #fbedff;
+}
+a.h2-txt > span:hover {
+    text-shadow: 2px 2px 5px #fff;
+}
 span.home-img {
     display: block;
     float: right;
