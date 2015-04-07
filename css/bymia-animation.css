@@ -32,7 +32,7 @@
     animation: imageAnimation 36s linear infinite 0s;
 }
 .cb-slideshow li div {
-    z-index: 1000;
+    z-index: 1;
     position: absolute;
     bottom: 10px;
     left: 0px;
