@@ -58,7 +58,7 @@
 <Group description="Elite Page" selector="body">
     <Variable name="body.font" description="Font" type="font" default=" normal 13px 'Open Sans', sans-serif" value=" normal 13px 'Open Sans', sans-serif"/>
     <Variable name="body.background.color" description="Elite Background Color" type="color" default="#F3E8E8" value="#F3E8E8"/>
-    <Variable name="body.text.color" description="Elite Text Color" type="color" default="#9F3F50" value="#9F3F50"/>
+    <Variable name="body.text.color" description="Elite Text Color" type="color" default="#c000c0" value="#c000c0"/>
     <Variable name="body.background" description="Elite Body Background" type="background" color="$(body.background.color)" default="$(color) none repeat fixed top center" value="$(color) none repeat fixed top center"/>
 </Group>
 <Group description="Elite Links" selector="a">
@@ -251,11 +251,9 @@ h5 {
 }
 
 #container {
-	background: $(container.background.color);
-	width: 88%;
+	background: rgba(64, 48, 64, 0.8);
+	width: 80vw;
 	padding: 2%;
-	margin-top: 25px;
-	margin-bottom: 25px;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
 	border-top-right-radius: 18px;
