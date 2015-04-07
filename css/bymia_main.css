@@ -78,7 +78,7 @@ a{
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-a.h1-txt > span {
+.h1-txt {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
@@ -88,7 +88,7 @@ a.h1-txt > span {
     color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-a.h1-txt > span:hover {
+.h1-txt {
     text-shadow: 2px 2px 5px #fff;
 }
 span.home-img {
