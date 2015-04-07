@@ -293,7 +293,6 @@ h5 {
 }
 
 #mainnav ul {
-	border-bottom: 3px groove #EE00EE;
 	border-top: 3px groove #EE00EE;
 	list-style: none outside none;
 	margin: 0 auto;
