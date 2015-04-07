@@ -977,7 +977,7 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
             <li><span>Image 05</span><div><h3>Uniquement sur RDV</h3></div></li>
             <li><span>Image 06</span><div><h3>Pas d'attente!</h3></div></li>
         </ul>
-        <div class="container">
+        <div class="bymia-container">
             <header id="home" >
                 <div><a href="#home"><h1><span class="h1-txt">ByMia</span></h1></a></div>
                 <div class="bymia-links">

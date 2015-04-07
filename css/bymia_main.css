@@ -54,14 +54,14 @@ body{
 a{
 	text-decoration: none;
 }
-.container{
+.bymia-container{
 	position: relative;
 	text-align: center;
 }
 .clr{
 	clear: both;
 }
-.container > header{
+.bymia-container > header{
     z-index: 100;
 	padding: 30px 30px 10px 20px;
 	margin: 0px 20px 10px 20px;
@@ -70,7 +70,7 @@ a{
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
     text-align: left;
 }
-.container > header h1 {
+.bymia-container > header h1 {
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
 	line-height: 35px;
@@ -78,7 +78,7 @@ a{
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-.container > header h1 span.h1-txt {
+.bymia-container > header h1 span.h1-txt {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
@@ -87,7 +87,7 @@ a{
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
-.container > header h1 span.h1-txt:hover {
+.bymia-container > header h1 span.h1-txt:hover {
     text-shadow: 2px 2px 5px #fff;
 }
 span.home-img {
@@ -107,7 +107,7 @@ span.home-img:hover {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     text-decoration: none;
 }
-.container > header h2 {
+.bymia-container > header h2 {
 	font-size: 16px;
 	font-style: italic;
 	color: #f8f8f8;
