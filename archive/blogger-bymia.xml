@@ -384,7 +384,7 @@ font-family:&#39;Arial&#39;,sans-serif;letter-spacing:normal;word-spacing:normal
 .comment_date a{color:#aaa;float:right;font-family:&#39;Trebuchet MS&#39;;font-size:11px;font-weight:normal}
 .comment_date a:hover{color:#282c31;text-decoration:none}
 .comment_body{margin-top:-72px;margin-left:65px;background:#fff;padding:15px;}
-div.comment_inner.comment_admin{background:#58bbe6;margin-top:0;transition:all 2s ease-out}
+div.comment_inner.comment_admin{background:#662266;margin-top:0;transition:all 2s ease-out}
 .comment_body p{line-height:1.5em;margin:5px 0 0 0;margin-bottom:20px;color:#666;font-size:14px;word-wrap:break-word;padding-bottom:10px;}
 .comment_inner{padding:15px;margin:5px 0 5px 0;background-color:#58bbe6;margin-top:5px;}
 .comment_child .comment_wrap{padding-left:5%}
@@ -635,64 +635,7 @@ li#totalComments{background:#212124;box-shadow:inset 1px 0 0 #3d3d42;}
 @media screen and (max-width:980px){
 #post-wrap, #wrapper {position:inherit;float:none;width:100%;margin:0;margin-top:20px;}
 #header {float:none;}
-#header h1, #header h1 a {text-align:center;}
-.ct-wrapper{padding:0 10px;}
-.header-wrapper {padding:0}
-.main-nav {display:block;width:100%;padding:0;background:#fff;}
-.main-nav ul {text-align:center;}
-.main-nav ul {display:none;height:auto;}
-.main-nav a#pull {background-color:#fff;color:#aaa;display:inline-block;font-family:&#39;Trebuchet MS&#39;;font-size:16px;font-weight:400;padding:5px 10px;position:relative;text-align:left;text-transform:uppercase;width:96%;line-height:40px;}
-.main-nav a#pull:after {content:&quot;\f0c9&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#aaa;
-display:inline-block;position:absolute;right:15px;line-height:40px;}
-.main-nav li {display:block;width:100%;text-align:left}
-.main-nav li a {background:#fff;color:#999;padding:5px 10px;display:block;margin-left:0;}
-.main-nav li a:hover, nav a:active {background:#ecb863;border:none;color:#fff!important;}
-main-nav ul li a:active, .main-nav ul li.highlight a {box-shadow:none;color:#ecb863;text-decoration:none;}
-.main-nav ul li a:hover:active, .main-nav ul li.highlight a:hover {box-shadow:none;color:#fff;text-decoration:none;}
-.main-nav ul li.facebook,.main-nav ul li.googleplus,.main-nav ul li.twitter,.main-nav ul li.contactus,.main-nav ul li.oursitemap{text-align:left;color:#aaa;transition:all 0.2s ease-in-out;}
-.main-nav ul li a.facebook:hover,.main-nav ul li a.googleplus:hover,.main-nav ul li.twitter:hover,.main-nav ul li.contactus:hover,.main-nav ul li.oursitemap:hover{color:#fff;}
-.main-nav ul li.facebook .fa.fa-facebook,.main-nav ul li.googleplus .fa.fa-google-plus,.main-nav ul li.twitter .fa.fa-twitter,.main-nav ul li.contactus .fa.fa-envelope-o,.main-nav ul li.oursitemap .fa.fa-sitemap{color:#aaa;transition:all 0.2s ease-in-out;}
-.main-nav ul li.facebook:hover{color:#fff;}
-.main-nav ul li.googleplus:hover{color:#fff;}
-.main-nav ul li.twitter:hover{color:#fff;}
-.main-nav ul li.contactus:hover{color:#fff;}
-.main-nav ul li.oursitemap:hover{color:#fff;}
-.main-nav ul li.facebook:hover .fa.fa-facebook,.main-nav ul li.googleplus:hover .fa.fa-google-plus,.main-nav ul li.twitter:hover .fa.fa-twitter,.main-nav ul li.contactus:hover .fa.fa-envelope-o,.main-nav ul li.oursitemap:hover .fa.fa-sitemap{color:#fff;}
-.menu {background:#fff;color:#999;display:inline-block;margin:0;padding:5px 10px;text-transform:Capitalize;width:95%;cursor:pointer;z-index:93;}
-.menu:after {content:&quot;\f0c9&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#999;
-display:inline-block;position:relative;line-height:40px;transition:all .4s ease-in-out;}
-.menu:hover:after {content:&quot;\f0c9&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#fff;display:inline-block;position:relative;line-height:40px;}
-.main-nav ul li.searchbutton {color:#999;display:inline-block;margin:0;padding:7px 18px;text-transform:Capitalize;cursor:pointer;z-index:93;transition:background 0.5s ease-out 0s;}
-.main-nav ul li.searchbutton:focus {color:#fff;background:#424951;}
-.main-nav ul li.searchbutton:after {content:&quot;\f002&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:16px;color:#999;display:inline-block;position:relative;line-height:40px;}
-.main-nav ul li.searchbutton.active:after {content:&quot;\f00d&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:19px;color:#aa00aa;display:inline-block;position:relative;line-height:40px;}
-#menu{position:relative;background:#2e2e32;color:#fff;margin:0 auto;}
-#menu ul{background:#2e2e32;position:absolute;top:100%;right:0;left:0;z-index:5;height:auto;display:none;}
-#menu ul.menus{width:100%;position:static;border:none;}
-#menu li{display:block;width:100%;text-align:left;}
-#menu a{display:block;}
-#menu li a{color:#fff;margin:0;}
-#menu li a:hover{background:#3d3d42;color:#fff}
-#menu li:hover{background:#3d3d42;color:#fff;border-bottom:none;border-top:none;}
-#menu li:hover &gt; a.ai,#menu a.ai:hover{background:#3d3d42;color:#fff;border-bottom:none;border-top:none;}
-#menu li:hover &gt; a,#menu li a:hover{background:#3d3d42;color:#fff;box-shadow:none;border-bottom:none;border-top:none;}
-#menu ul.menus a{background:#2e2e32;color:#fff;border-bottom:none;border-top:none;}
-#menu ul.menus a:hover{background:#3d3d42;color:#fff!important;border-bottom:none;border-top:none;}
-#menu input,#menu label{display:inline-block;position:absolute;right:0;top:0;}
-#menu input:after,#menu label:after {content:&quot;\f0c9&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#fff;
-display:inline-block;position:absolute;right:35px;top:25%;line-height:40px;}
-#menu input{z-index:4}
-#menu input:checked + label{color:#fff;font-weight:700}
-#menu input:checked ~ ul{display:block}
-#menu li:hover &gt; ul.menus{display:block;}
-#menu ul.menus &gt; li:hover &gt; a {background:#aa00aa;}
-#menu .ranpost {cursor:pointer;float:left;}}
+}
 
 @media screen and (max-width:800px){
 .inner1 {margin-top:0;min-height:200px;position:relative;}
@@ -711,7 +654,6 @@ display:inline-block;position:absolute;right:35px;top:25%;line-height:40px;}
 #copy{float:none;}
 #copyright{text-align:center;}
 .comment_body{margin:0px;}
-.main-nav ul li.buttonalert, .comment_avatar_wrap {display:none;}
 #header .description {width:60%;}
 #header,#header .description,#header h1,#header p,#header a {text-align:center;margin:0 auto;}
 #header-wrapper{margin:0 auto;}
@@ -753,7 +695,7 @@ padding:2px 6px;margin:0 5px;font-family:&#39;Trebuchet MS&#39;;text-transform:u
 .label-info a:hover{background:#ecb863;color:#fff;}
 
 /* CSS Blog Pager */
-#blog-pager {background:#3d3d42;text-align:center;margin:0;clear:both;overflow:hidden;padding:0;}
+#blog-pager {background:#3d3d42;text-align:center;margin:0;clear:both;overflow:hidden;padding:0;z-index:9999;}
 #blog-pager-newer-link {float:left;}
 #blog-pager-older-link {float:right;}
 #blog-pager-newer-link span {background:#3d3d42;}
@@ -2028,18 +1970,6 @@ if(r&gt;0) {obj0.innerHTML=s.substr(0,r);obj1.innerHTML=s.substr(r+16);}
 
 <aside id='right-side'>
   <b:section class='sidebar' id='sidebar-bymia'>
-    <b:widget id='HTML80' locked='false' title='' type='HTML'>
-      <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-</b:includable>
-    </b:widget>
     <b:widget id='PopularPosts1' locked='false' title='Weekly Posts' type='PopularPosts'>
       <b:includable id='main'>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
