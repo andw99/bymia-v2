@@ -14,7 +14,6 @@
 <link rel="shortcut icon" href="../favicon.ico" />
 <link rel="stylesheet" type="text/css" href="css/bymia_main.css" />
 <link rel="stylesheet" type="text/css" href="css/bymia-animation.css" />
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
 <link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia_main.css' rel='stylesheet' type='text/css'/>
 <link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia-animation.css' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'/>
@@ -206,11 +205,11 @@ td.tr-caption{font-size:80%}
 #header{float:left;margin:0;overflow:hidden;text-align:center;}
 #header h1 {padding:7px 18px;url(http://4.bp.blogspot.com/-edXxeuvU5nk/Tjj3xLfviCI/AAAAAAAAAOs/cF1kEJivviA/s000/texture-top-bg.png);background:transparent;color:#e7f;font-family:&#39;Pinyon Script&#39;;font-weight:400;font-size:36px;margin:0;text-transform:lowercase;line-height:40px;}
 #header h1 a {url(http://4.bp.blogspot.com/-edXxeuvU5nk/Tjj3xLfviCI/AAAAAAAAAOs/cF1kEJivviA/s000/texture-top-bg.png);background:transparent;color:#e7f;font-family:&#39;Pinyon Script&#39;;font-weight:400;font-size:36px;margin:0;text-transform:lowercase;line-height:40px;transition:all 0.3s ease-in-out;}
-#header h1 a:hover {color:#aa00aa;}
+#header h1 a:hover {color:#fff;}
 #header p.description{display:none;}
 #header img{border:0;background:none;width:auto;height:auto;margin:0 auto;}
-#header h1:before {content:&#39;\f11a&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#aa00aa;transform:rotate(0);transition:all 0.3s ease-in-out;}
-#header h1:hover:before {content:&#39;\f118&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#aa00aa;transform:rotate(360deg);}
+#header h1:before {content:&#39;\f185&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#aa00aa;transform:rotate(0);transition:all 0.3s ease-in-out;}
+#header h1:hover:before {content:&#39;\f185&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#fff;transform:rotate(360deg);}
 
 /* CSS Top Menu */
 .main-nav {display:inline-block;margin:0 auto;float:right;background:#aa00aa;}
@@ -1057,7 +1056,7 @@ head.appendChild(script);
             <!-- Main menu -->
             <ul>
               <li class='sorting-01 facebook'><a href='https://www.facebook.com/pages/ByMia/1447667865448988' target='_blank' title='Follow us on facebook'><i class='fa fa-facebook'/><span class='inv'/></a></li>
-              <li class='sorting-02 googleplus'><a href='#' target='_blank' title='Follow us on google plus'><i class='fa fa-google-plus'/><span class='inv'/></a></li>
+              <li class='sorting-02 googleplus'><a href='https://plus.google.com/u/0/108435165649998492492' target='_blank' title='Follow us on google plus'><i class='fa fa-google-plus'/><span class='inv'/></a></li>
               <li class='sorting-03 contactus'><a href='http://bymia.fr/index.html#find-us' title='contact'><i class='fa fa-envelope-o'/><span class='inv'/></a></li>
               <li class='sorting-04 oursitemap'><a href='http://bymia.fr' title='home'><i class='fa fa-home'/><span class='inv'/></a></li>
               <li class='searchbutton' title='Search this blog'/>
