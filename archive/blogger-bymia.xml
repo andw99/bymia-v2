@@ -7,19 +7,18 @@
 <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
 <meta content='blogger' name='generator'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-    <title>By Mia - coiffeuse conseil - uniquement sur RDV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ByMia - coiffeuse VIP, VIP hairdresser, coiffeuse conseil" />
-    <meta name="keywords" content="coiffure, coiffeuse, hairdresser, styliste, visagiste, relooking, balayage, highlights, relax, soin intensive, straightening, care" />
-    <meta name="author" content="Andrew Walker" />
-    <link rel="shortcut icon" href="../favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/bymia_main.css" />
-    <link rel="stylesheet" type="text/css" href="css/bymia-animation.css" />
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
-    <link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia_main.css' rel='stylesheet' type='text/css'/>
-    <link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia-animation.css' rel='stylesheet' type='text/css'/>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'/>
-    <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script|Libre+Baskerville:400italic|Rochester' rel='stylesheet'/>
+<title>By Mia - coiffeuse conseil - uniquement sur RDV</title>
+<meta name="description" content="ByMia - coiffeuse VIP, VIP hairdresser, coiffeuse conseil" />
+<meta name="keywords" content="coiffure, coiffeuse, hairdresser, styliste, visagiste, relooking, balayage, highlights, relax, soin intensive, straightening, care" />
+<meta name="author" content="Andrew Walker" />
+<link rel="shortcut icon" href="../favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/bymia_main.css" />
+<link rel="stylesheet" type="text/css" href="css/bymia-animation.css" />
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+<link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia_main.css' rel='stylesheet' type='text/css'/>
+<link href='https://rawgit.com/andw99/bymia-v2/master/css/bymia-animation.css' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Pinyon+Script' rel='stylesheet'/>
+<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script|Libre+Baskerville:400italic|Rochester' rel='stylesheet'/>
 <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
 <link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
 <link expr:href='data:blog.url' rel='canonical'/>
@@ -47,7 +46,8 @@
 <meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
 </b:if></b:if>
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
-<meta content='KATA, KUNCI, TULIS, DISINI' name='keywords'/></b:if>
+<meta name="keywords" content="coiffure, coiffeuse, hairdresser, styliste, visagiste, relooking, balayage, highlights, relax, soin intensive, straightening, care" />
+</b:if>
 <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
 <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
 <link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
@@ -70,38 +70,20 @@
 <meta expr:content='data:blog.postImageUrl' property='og:image'/>
 <b:else/></b:if>
 <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://plus.google.com/KODEGOOGLEPLUS/posts' rel='publisher'/>
-<link href='https://plus.google.com/KODEGOOGLEPLUS/about' rel='author'/>
-<link href='https://plus.google.com/KODEGOOGLEPLUS' rel='me'/>
-<meta content='KODE-GOOGLE-DISINI' name='google-site-verification'/>
-<meta content='KODE-MICROSOFT-BING-DISINI' name='msvalidate.01'/>
-<meta content='KODE-ALEXA-DISINI' name='alexaVerifyID'/>
-<meta content='Indonesia' name='geo.placename'/>
-<meta content='NAMA ANDA' name='Author'/>
+<link href='https://plus.google.com/andw99/posts' rel='publisher'/>
+<link href='https://plus.google.com/andw99/about' rel='author'/>
+<link href='https://plus.google.com/andw99' rel='me'/>
+<meta content='France' name='geo.placename'/>
+<meta content='Andw99' name='Author'/>
 <meta content='general' name='rating'/>
 <meta Content='snippet' name='googlebot'/>
 <meta content='id' name='geo.country'/>
-<meta content='KODE-APLIKASI-FB' property='fb:app_id'/>
-<meta content='KODE-USER-FB' property='fb:admins'/>
-<meta content='@TWITTERANDA' name='twitter:site'/>
-<meta content='@TWITTERANDA' name='twitter:creator'/>
-<meta content='en_US' property='og:locale'/>
+<meta content='fr_FR' property='og:locale'/>
+<meta content='en_US' property='og:locale:alternate'/>
 <meta content='en_GB' property='og:locale:alternate'/>
-<meta content='id_ID' property='og:locale:alternate'/>
 
 <!-- <body><div></div> -->
-&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /* <b:skin><![CDATA[/*
-Theme Name       : Lycoris 2.1 Responsive
-Theme Style      : Grid Masonry
-Theme Updated    : Nov 2014
-Theme Designer   : Arlina Design
-Designer Site    : http://arlinadesign.blogspot.com
-Designer URL     : https://plus.google.com/+ArlinaFitriyaniDee
-Theme License    : This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use.
-However, to satisfy the 'attribution' clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
-http://creativecommons.org/licenses/by/3.0/
-*/
-
+&lt;style type=&quot;text/css&quot;&gt;&lt;!-- /* <b:skin><![CDATA[
 /* CSS Reset */
 html,body,div,span,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,img,iframe,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
 
@@ -121,7 +103,7 @@ background:rgba(255,255,255,1);color:#fff;padding:5px;}
 .sidebar .widget {margin-bottom:0;padding:15px;}
 #sidebar-kanan{margin:0;}
 .footer-wid{color:#8b9199;}
-.sidebar h2 {font-family:'Viga', Helvetica, sans-serif;font-size:15px;font-weight:400;
+.sidebar h2 {font-family:'Trebuchet MS', Helvetica, sans-serif;font-size:15px;font-weight:400;
 text-transform:uppercase;padding:0;margin:0 0 0 0;line-height:1;border-bottom:3px solid #4b4b52;color:#eee;}
 .sidebar h2 span {border-bottom:3px solid #ecb863;margin-bottom:-3px;display:inline-block;
 padding-bottom:10px;}
@@ -140,13 +122,13 @@ padding-bottom:10px;}
 #header img{border:0;background:none;width:auto;height:auto;margin:0 auto;}
 
 /* CSS Layout */
-body{background:#f5f5f5;margin:0 0 0 0;padding:0 0 0 0;font-family:'Roboto';font-weight:400;color:#666;text-align:left;overflow:auto;}
+body{background:#f5f5f5;margin:0 0 0 0;padding:0 0 0 0;font-family:'Trebuchet MS';font-weight:400;color:#666;text-align:left;overflow:auto;}
 #Attribution1 {height:0;visibility:hidden;display:none}
 .quickedit{display:none;}
 .clear{clear:both;}
 .status-msg-body, .status-msg-border{display:none;}
 h1.title {text-transform:none;}
-h1.title a{font-family:'Viga';font-weight:400;color:#fff;}
+h1.title a{font-family:'Trebuchet MS';font-weight:400;color:#fff;}
 h1.title a:hover{background:none;}
 .post-more-link {text-align:right;margin-top:5px;}
 .post-more-link a {background:#1abc9c;color:#fff;overflow:hidden;display:inline;padding:5px;}
@@ -174,14 +156,14 @@ img{max-width:100%;vertical-align:middle;border:0;}
 .post ul{list-style:inherit;}
 .post ul li span{position:relative;display:block;padding:5px 8px;margin-bottom:10px;background:#fcfcfc;color:#666;text-decoration:none;transition:all .3s ease-out;}
 .post ul li span:hover{background:#fafafa;}
-ol {counter-reset:li;list-style:none;font-size:14px;font-family:'Roboto','lucida sans';
+ol {counter-reset:li;list-style:none;font-size:14px;font-family:'Trebuchet MS','lucida sans';
 padding:0;margin-bottom:4em;text-shadow: 0 1px 0 rgba(255,255,255,.5);}
 ol ol {margin: 0 0 0 2em;}
 .post ol li{position:relative;display:block;padding:0;margin:.5em 0 .5em 2.5em;background:#fcfcfc;color:#666;text-decoration:none;transition:all .3s ease-out;}
 .post ol li:hover{background:#fafafa;}
 .post ol li:before{content:counter(li);counter-increment:li;position:absolute;
 left:-2.5em;top:50%;margin-top:-1em;background:#fdfdfd;color:#666;height:2em;width:2em;
-line-height:2em;text-align:center;font-weight:bold;border:1px solid #ddd;font-family:'Roboto';transition:all .1s ease-in-out}
+line-height:2em;text-align:center;font-weight:bold;border:1px solid #ddd;font-family:'Trebuchet MS';transition:all .1s ease-in-out}
 .post ol li:hover:before{background:#f35d5c;color:#fff;border:1px solid #de5554;}
 .post ol li:after{position:absolute;content:'';border: .5em solid transparent;
 left:-.5em;top:52%;margin-top:-.5em;transition:all .1s ease-in-out}
@@ -217,15 +199,6 @@ td.tr-caption{font-size:80%}
 ]]></b:skin>
 
 <style type='text/css'>
-
-/* Fonts */
-@font-face {font-family:&#39;Roboto&#39;;font-style:normal;font-weight:300;
-src: local(&#39;Roboto Light&#39;), local(&#39;Roboto-Light&#39;), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format(&#39;woff&#39;);}
-
-@font-face {font-family:&#39;Viga&#39;;font-style:normal;font-weight:400;
-src: local(&#39;Viga-Regular&#39;), url(http://fonts.gstatic.com/s/viga/v5/qSCTLa3-E_u5bzqg7fivWw.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
-
 /* CSS Header Wrapper */
 .blogouter-wrapper {background:#fff;background: url(http://4.bp.blogspot.com/-edXxeuvU5nk/Tjj3xLfviCI/AAAAAAAAAOs/cF1kEJivviA/s000/texture-top-bg.png);position:relative;top:0;left:0;z-index:92;overflow:hidden;width:100%;}
 .ct-wrapper {padding:0 20px;position:static;max-width:1100px;margin:0 auto;}
@@ -243,7 +216,7 @@ src: local(&#39;Viga-Regular&#39;), url(http://fonts.gstatic.com/s/viga/v5/qSCTL
 .main-nav {display:inline-block;margin:0 auto;float:right;background:#aa00aa;}
 .main-nav ul {width:100%;padding:0;margin:0;text-align:right;}
 .main-nav li {list-style-type:none;float:left;padding:0;}
-.main-nav li a {font-family:&#39;Viga&#39;;font-size:16px;font-weight:400;color:#fff;display:inline-block;margin:0;margin-left:5px;padding:7px 18px;text-transform:uppercase;line-height:40px;transition:all 0.3s ease-in-out;}
+.main-nav li a {font-family:&#39;Trebuchet MS&#39;;font-size:16px;font-weight:400;color:#fff;display:inline-block;margin:0;margin-left:5px;padding:7px 18px;text-transform:uppercase;line-height:40px;transition:all 0.3s ease-in-out;}
 .main-nav ul li a:active, .main-nav ul li.highlight a {background:transparent;color:#fff;text-decoration:none;}
 .main-nav ul li a:hover:active, .main-nav ul li.highlight a:hover {color:#fff;text-decoration:none;}
 .main-nav ul li a:hover {opacity:0.9;color:#fff;text-decoration:none;}
@@ -270,10 +243,10 @@ font-style:normal;font-weight:normal;text-decoration:none;font-size:19px;color:#
 .search-form {display:none;position:relative;background:#f0f0f0;padding:15px;z-index:100;
 margin:0 auto;}
 .searchform {margin:0 auto;padding:0;text-align:center;width:100%;max-width:1100px;}
-.searchbar {width:50%;background:#fff;padding:10px 20px;font-weight:400;font-size:15px;font-family:&#39;Roboto&#39;,sans-serif;color:#666;margin:0 auto;border:0;outline:none;line-height:25px;border-radius:5px 0 0 5px;transition:background 0.5s ease-out 0s;}
+.searchbar {width:50%;background:#fff;padding:10px 20px;font-weight:400;font-size:15px;font-family:&#39;Trebuchet MS&#39;,sans-serif;color:#666;margin:0 auto;border:0;outline:none;line-height:25px;border-radius:5px 0 0 5px;transition:background 0.5s ease-out 0s;}
 .searchbar:focus {color:#444;}
 .searchsubmit {background:#c8bb77;border:none;outline:none;cursor:pointer;color:#fff;
-padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-family:&#39;Viga&#39;,sans-serif;line-height:25px;margin:0;border-radius:0 5px 5px 0;margin-left:-4px;transition:background-color 0.5s ease-out 0s;}
+padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-family:&#39;Trebuchet MS&#39;,sans-serif;line-height:25px;margin:0;border-radius:0 5px 5px 0;margin-left:-4px;transition:background-color 0.5s ease-out 0s;}
 .searchsubmit:hover {background:#2e2e32;color:#fff;}
 .searchsubmit:active {background:#2e2e32;color:#c8bb77;border:none;outline:none;}
 
@@ -282,13 +255,13 @@ padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-f
 #menu{color:#fff;height:60px;max-width:1100px;margin:0 auto;}
 #menu ul,#menu li{margin:0;padding:0;list-style:none;}
 #menu ul{height:60px}
-#menu li{float:left;display:inline;position:relative;font-family:&#39;Viga&#39;;font-size:14px;font-weight:400;}
+#menu li{float:left;display:inline;position:relative;font-family:&#39;Trebuchet MS&#39;;font-size:14px;font-weight:400;}
 #menu li a{color:#ddd;}
 #menu a{display:block;line-height:60px;padding:0 10px;margin:0;text-decoration:none;color:#ddd;transition:all 0.3s ease-in-out;}
 #menu li:hover &gt; a{color:#dfbc42;}
 #menu li a:hover{color:#dfbc42;}
 #menu input{display:none;margin:0;padding:0;width:80px;height:60px;opacity:0;cursor:pointer}
-#menu label{font-family:&#39;Viga&#39;;font-size:30px;font-weight:400;display:none;width:35px;height:51px;line-height:51px;text-align:center}
+#menu label{font-family:&#39;Trebuchet MS&#39;;font-size:30px;font-weight:400;display:none;width:35px;height:51px;line-height:51px;text-align:center}
 #menu label span{font-size:13px;position:absolute;left:35px}
 #menu ul.menus{visibility:hidden;opacity:0;height:auto;overflow:hidden;min-width:150px;background:#fff;position:absolute;z-index:99;color:#444;top:60px;-moz-transform:translate(0,10px);-o-transform:translate(0,10px);-webkit-transform:translate(0,10px);transform:translate(0,10px);box-shadow:0 1px 5px rgba(0,0,0,0.2);transition:all 0.3s ease-in-out;}
 #menu li:hover &gt; ul.menus{opacity:1;visibility:visible;-moz-transform:translate(0);-o-transform:translate(0);-webkit-transform:translate(0);transform:translate(0);}
@@ -297,7 +270,7 @@ padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-f
 #menu li &gt; a.ai::after {content:&quot;\f0d7&quot;;font-family:FontAwesome;margin:0 auto;width:10px;height:10px;line-height:60px;position:absolute;top:0;right:10px;}
 #menu ul.menus a{background:#fff;color:#999;border-bottom:1px solid #f0f0f0;margin:0;height: 45px;line-height:45px;padding:0 0 0 15px;transition:all 0s;}
 #menu ul.menus a:hover{transition:all 0s;}
-#menu ul.menus li{display:block;width:100%;font-family:&#39;Viga&#39;;font-size:13px;font-weight:400;text-transform:none;}
+#menu ul.menus li{display:block;width:100%;font-family:&#39;Trebuchet MS&#39;;font-size:13px;font-weight:400;text-transform:none;}
 #menu ul.menus li:hover{width:100%;}
 #menu ul.menus li:last-child {border-bottom:none;}
 #menu ul.menus li:first-child a{border-top:none;}
@@ -320,7 +293,7 @@ padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-f
 #lightbox-nav-btnPrev,#lightbox-nav-btnNext{width:49%;height:100%;display:block;transition:All 0.2s ease;}
 #lightbox-nav-btnPrev{left:10%;float:left;transition:All 0.2s ease;}
 #lightbox-nav-btnNext{right:10%;float:right;transition:All 0.2s ease;}
-#lightbox-container-image-data-box{font-size:10px;font-family: &#39;Roboto&#39;,Helvetica,sans-serif;background-color:#fff;margin:0 auto;line-height:1.4em;overflow:hidden;max-width:100%!important;padding:0 10px;}
+#lightbox-container-image-data-box{font-size:10px;font-family: &#39;Trebuchet MS&#39;,Helvetica,sans-serif;background-color:#fff;margin:0 auto;line-height:1.4em;overflow:hidden;max-width:100%!important;padding:0 10px;}
 #lightbox-container-image-data{padding:0 10px;color:#818d99}
 #lightbox-container-image-data #lightbox-image-details{width:70%;float:left;text-align:left}
 #lightbox-image-details-caption{font-weight:normal}
@@ -351,8 +324,8 @@ background:#f8f8f8;border:none;color:#3f4c5f;overflow:hidden;}
 .home-link {margin:0 auto;}
 .breadcrumbs {background:#84adc5;font-size:100%;height:50px;overflow:hidden;padding:0;}
 .breadcrumbs &gt; span {background:#84adc5;padding:0;line-height:50px;}
-.breadcrumbs &gt; span:last-child {background:#84adc5;color:#fff;border-right:none;font-family:&#39;Roboto&#39;;font-size:13px;font-weight:normal;padding:10px;line-height:50px;}
-.breadcrumbs a {background:#84adc5;color:#fff;font-family:&#39;Roboto&#39;;font-size:13px;font-weight:normal;}
+.breadcrumbs &gt; span:last-child {background:#84adc5;color:#fff;border-right:none;font-family:&#39;Trebuchet MS&#39;;font-size:13px;font-weight:normal;padding:10px;line-height:50px;}
+.breadcrumbs a {background:#84adc5;color:#fff;font-family:&#39;Trebuchet MS&#39;;font-size:13px;font-weight:normal;}
 .breadcrumbs span a {color:#fff;padding:10px;}
 .breadcrumbs span:first-child  a{padding:15px;color:#fff;}
 .breadcrumbs span a:hover {background:#8fbad2;color:#fff;}
@@ -396,19 +369,19 @@ font-family:&#39;Arial&#39;,sans-serif;letter-spacing:normal;word-spacing:normal
 
 /* CSS Comment */
 #comments{line-height:1em;margin:0;position:relative;background:#aa99aa;padding:10px;}
-#comments h3{font-family:&#39;Viga&#39;,sans-serif;background:#bbaabb;padding:15px 65px 15px 20px;margin-bottom:19px;font-size:18px;font-weight:400;color:#fff;position:relative;display:block;text-transform:uppercase;}
+#comments h3{font-family:&#39;Trebuchet MS&#39;,sans-serif;background:#bbaabb;padding:15px 65px 15px 20px;margin-bottom:19px;font-size:18px;font-weight:400;color:#fff;position:relative;display:block;text-transform:uppercase;}
 #comments h3:before {content:&quot;\f086&quot;;font-family:FontAwesome;font-size:24px;font-style:normal;font-weight:normal;top:0;right:0;position:absolute;padding:9px 15px;color:#fff;line-height:25px;}
 .comment_avatar_wrap{width:42px;height:42px;background:#ddbbdd;padding:5px;text-align:center;}
 #comments .avatar-image-container{float:left;margin:0 10px 0 0;width:42px;height:42px;max-width:42px;max-height:42px;padding:0;}
 #comments .avatar-image-container img{width:42px;height:42px;max-width:42px;max-height:42px;background:url(http://2.bp.blogspot.com/-fjaZBtfvzac/UN1mw2tUamI/AAAAAAAADkc/XdKqt8hWZ6w/s1600/anon.jpg) no-repeat}
-.comment_name a{font-family:&#39;Viga&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#8f8f8f;}
+.comment_name a{font-family:&#39;Trebuchet MS&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#8f8f8f;}
 .comment_name a:hover{color:#cbbb7f;}
-.comment_admin .comment_name{font-family:&#39;Viga&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#cbbb7f;}
+.comment_admin .comment_name{font-family:&#39;Trebuchet MS&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#cbbb7f;}
 .comment_admin .comment_date{font-weight:normal;font-size:11px;color:#71cbf2;}
-.comment_name{font-family:&#39;Viga&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#fff;}
+.comment_name{font-family:&#39;Trebuchet MS&#39;,Arial,Sans-serif;padding-bottom:10px;font-size:16px;text-transform:uppercase;font-weight:400;text-decoration:none;color:#fff;}
 .comment_service{margin-top:5px}
 .comment_date{color:#71cbf2;float:right;font-size:11px;font-weight:normal}
-.comment_date a{color:#aaa;float:right;font-family:&#39;Viga&#39;;font-size:11px;font-weight:normal}
+.comment_date a{color:#aaa;float:right;font-family:&#39;Trebuchet MS&#39;;font-size:11px;font-weight:normal}
 .comment_date a:hover{color:#282c31;text-decoration:none}
 .comment_body{margin-top:-72px;margin-left:65px;background:#fff;padding:15px;}
 div.comment_inner.comment_admin{background:#58bbe6;margin-top:0;transition:all 2s ease-out}
@@ -421,7 +394,7 @@ div.comment_inner.comment_admin{background:#58bbe6;margin-top:0;transition:all 2
 .unneeded-paging-control{display:none}
 #comment-editor{width:100%!important;background:#aa99aa;margin-bottom:20px;position:relative;}
 .comment-form{max-width:100%!important}
-.comment_form a{text-decoration:none;font-weight:normal;font-family:&#39;Roboto&#39;,Helvetica,Garuda,sans-serif;font-size:15px;color:#fff;}
+.comment_form a{text-decoration:none;font-weight:normal;font-family:&#39;Trebuchet MS&#39;,Helvetica,Garuda,sans-serif;font-size:15px;color:#fff;}
 .comment_form a:hover{background:#3d3d42;color:#fff;text-decoration:none;}
 .comment_reply_form{padding:0 0 0 70px}
 .comment_reply_form .comment-form{width:99%}
@@ -442,7 +415,7 @@ img.comment_emo{margin:0;padding:0;vertical-align:middle}
 .comment_admin .comment_author_flag{display:inline-block;background:rgba(255,255,255,0.3);font-size:12px;font-weight:normal;padding:3px 6px;color:#fff;text-align:center;margin-left:5px;}
 .deleted-comment{background:rgba(245,73,73,0.6);color:#fff;padding:12px 15px 12px 15px;
 margin:5px 0;display:inline-block;text-align:center;}
-.comment-form p{background:#ddbbdd;color:#fff;font-weight:400;font-size:14px;font-family:&#39;Viga&#39;,sans-serif;text-transform:uppercase;letter-spacing:0;padding:15px 65px 15px 20px;margin:5px 0 5px 0;line-height:20px;position:relative;}
+.comment-form p{background:#ddbbdd;color:#fff;font-weight:400;font-size:14px;font-family:&#39;Trebuchet MS&#39;,sans-serif;text-transform:uppercase;letter-spacing:0;padding:15px 65px 15px 20px;margin:5px 0 5px 0;line-height:20px;position:relative;}
 .comment-form p:before {content:&quot;\f044&quot;;font-family:FontAwesome;font-size:24px;font-style:normal;font-weight:normal;top:0;right:0;position:absolute;padding:12px 16px;color:#fff;line-height:26px;}
 div.comment_avatar img[src=&#39;http://img1.blogblog.com/img/openid16-rounded.gif&#39;]{content:url(http://2.bp.blogspot.com/-8NurYzHIoWQ/Ujc_oLurXII/AAAAAAAAFek/XhAm-oLwg7Q/s45-c/gravatar.png)}
 div:target .comment_inner{background:#58bbe6;transition:all 15s ease-out}
@@ -458,11 +431,11 @@ iframe{border:none;overflow:hidden}
 
 /* CSS Credit Wrapper */
 #copyright{width:100%;margin:0 auto;padding:10px 0;color:#ccc;background:#212124;position:relative;}
-#copy{font-family:&#39;Viga&#39;,sans-serif;font-size:13px;font-weight:400;color:#ccc;text-align:center;max-width:1100px;margin:0 auto;padding:10px 0;transition:all 0.8s ease-out 0s;}
+#copy{font-family:&#39;Trebuchet MS&#39;,sans-serif;font-size:13px;font-weight:400;color:#ccc;text-align:center;max-width:1100px;margin:0 auto;padding:10px 0;transition:all 0.8s ease-out 0s;}
 #copyright a{color:#ecb863;transition:all 0.5s ease-out;}
 #copyright a:hover{color:#fff;}
 #copy p{padding:5px 0;}
-#copy2 {font-family:&#39;Viga&#39;;font-size:13px;font-weight:400;color:#999;text-align:center;max-width:1100px;margin:0 auto;padding:0 0 15px 0;}
+#copy2 {font-family:&#39;Trebuchet MS&#39;;font-size:13px;font-weight:400;color:#999;text-align:center;max-width:1100px;margin:0 auto;padding:0 0 15px 0;}
 
 /* CSS Sitemap 1 */
 #bp_toc {background:#fff;width:100%;color:#8f8f8f;margin-top:10px;margin:0 auto;padding:5px;}
@@ -471,7 +444,7 @@ iframe{border:none;overflow:hidden}
 .toc-header-col3 {padding:10px;background-color:#2e2e32;width:125px;transition:all 0.8s ease-in-out;}
 .toc-header-col1:hover, .toc-header-col2:hover, .toc-header-col3:hover {opacity:0.9;}
 .toc-header-col1 a:link, .toc-header-col1 a:visited, .toc-header-col2 a:link, .toc-header-col2 a:visited, .toc-header-col3 a:link, .toc-header-col3 a:visited {font-size:15px;
-text-decoration:none;color:#fff;font-family:&#39;Viga&#39;;font-weight:400;letter-spacing: 0.5px;}
+text-decoration:none;color:#fff;font-family:&#39;Trebuchet MS&#39;;font-weight:400;letter-spacing: 0.5px;}
 .toc-header-col1 a:hover, .toc-header-col2 a:hover, .toc-header-col3 a:hover {
 text-decoration:none;}
 .toc-entry-col1, .toc-entry-col2, .toc-entry-col3 {background:#fafafa;padding:5px;padding-left:5px;font-size:89%}
@@ -503,7 +476,7 @@ text-decoration:none;background-color:#444;padding:5px;width:95%;margin: 0 auto;
 #feedContainer .date span {display:inline-block;line-height:5px;text-align:center;
 margin-left:5px;}
 
-/* CSS Page Navigation */
+/* CSS Page NaTrebuchet MStion */
 .paginator{margin:0 auto;margin-top:10px;margin-bottom:10px;font-size:14px;font-family:&#39;Arial&#39;;font-weight:bold;line-height:25px;}
 .paginator table{margin:0 auto;border-collapse:collapse;table-layout:fixed;width:100%}
 .paginator table td{white-space:nowrap;text-align:center;padding:0;transition: all 0.5s ease-out 0s;}
@@ -544,7 +517,7 @@ background:#2e2e32;transition:all 0.3s ease-out;border-bottom:1px solid #212124;
 div#HTML80 {padding:0;}
 
 /* CSS Label */
-.sidebar .label-size {position:relative;text-transform:none;text-decoration:none;font-size:13px;font-family:&#39;Roboto&#39;;}
+.sidebar .label-size {position:relative;text-transform:none;text-decoration:none;font-size:13px;font-family:&#39;Trebuchet MS&#39;;}
 .sidebar .label-size a {background:#3a3a3f;color:#bbb;font-weight:400;padding:10px 12px;
 margin:0 0 0 0;float:left;display:block;transition: all 0.5s linear;}
 .sidebar .label-size a:hover{background:#aa00aa;color:#fff;transition: all 0.1s linear;}
@@ -577,27 +550,27 @@ font-size:13px;line-height:22px;border-radius:2px;transition:all .3s linear;}
 #ContactForm1{display:none;}
 #ContactForm1_contact-form-name, #ContactForm1_contact-form-email{
 width:300px;height:auto;margin:10px auto;padding:10px;background:#fdfdfd;color:#666;border:1px dashed #ddd;transition:all 0.5s ease-in-out;}
-#ContactForm1_contact-form-email-message{width:450px;height:175px;margin:10px auto;padding:10px;background:#fdfdfd;color:#666;font-family:&#39;Roboto&#39;,sans-serif;border:1px dashed #ddd;transition:all 0.5s ease-in-out;}
+#ContactForm1_contact-form-email-message{width:450px;height:175px;margin:10px auto;padding:10px;background:#fdfdfd;color:#666;font-family:&#39;Trebuchet MS&#39;,sans-serif;border:1px dashed #ddd;transition:all 0.5s ease-in-out;}
 #ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus{background:#fff;outline:none;border:1px dashed #ecb863;}
-#ContactForm1_contact-form-submit {font-family:&#39;Viga&#39;;font-size:15px;width:101px;height:35px;float:left;color:#fff;padding:0;margin:10px 0 3px 0;cursor:pointer;background:#aaa;border:none;border-radius:2px;transition:background 0.4s linear;}
+#ContactForm1_contact-form-submit {font-family:&#39;Trebuchet MS&#39;;font-size:15px;width:101px;height:35px;float:left;color:#fff;padding:0;margin:10px 0 3px 0;cursor:pointer;background:#aaa;border:none;border-radius:2px;transition:background 0.4s linear;}
 #ContactForm1_contact-form-submit:hover {background:#ecb863;}
 #ContactForm1_contact-form-error-message, #ContactForm1_contact-form-success-message{
 width:450px;margin-top:35px;}
 
 /* CSS Feed Rotator */
-.slider-rotator{background:#2e2e32;width:100%!important;height:340px;padding:0;font-size:11px;font-family:&#39;Roboto&#39;,Verdana,Arial,Sans-Serif;color:#bbb;margin:0 auto;position:relative;overflow:hidden;text-align:left}
+.slider-rotator{background:#2e2e32;width:100%!important;height:340px;padding:0;font-size:11px;font-family:&#39;Trebuchet MS&#39;,Verdana,Arial,Sans-Serif;color:#bbb;margin:0 auto;position:relative;overflow:hidden;text-align:left}
 .slider-rotator.loading{display:none;background-position:50% 50%;background-repeat:no-repeat}
 .slider-rotator .slider-item{position:absolute;padding:0;background-color:transparent;top:0;right:0;bottom:auto;left:0;display:none;}
 .slider-rotator .image-wrapper{background:#2e2e32;}
 .slider-rotator .detail-wrapper{background:#2e2e32;}
 .slider-rotator img{display:block;border:none;outline:none;padding:0 0;margin:0 auto;box-shadow:none;max-width:none;max-height:none;width:100%!important;height:auto!important;}
 .slider-rotator h4{font-size:16px;text-transform:none;margin:0;padding:10px 10px 0px 20px;}
-.slider-rotator h4 a{font-family:&#39;Viga&#39;;font-weight:400;color:#bbb;line-height:1.5;text-decoration:none}
+.slider-rotator h4 a{font-family:&#39;Trebuchet MS&#39;;font-weight:400;color:#bbb;line-height:1.5;text-decoration:none}
 .slider-rotator h4 a:hover{text-decoration:none;color:#fff;}
 .slider-rotator p{display:none;margin:10px;font-size:12px;}
 .slider-rotator-nav{text-align:center;margin:0 auto;background:#2e2e32;}
 .slider-rotator-nav a {display:inline;color:#bbb;padding:6px 8px;
-line-height:2.6em;margin:0 2px;text-decoration:none;font-family:&#39;Roboto&#39;;font-size:14px;transition:all 0.1s ease-in-out;}
+line-height:2.6em;margin:0 2px;text-decoration:none;font-family:&#39;Trebuchet MS&#39;;font-size:14px;transition:all 0.1s ease-in-out;}
 .slider-rotator-nav a:hover{color:#fff;}
 .slider-rotator-nav a.current{color:#fff;}
 #HTML80 .widget-content{padding:0;background:#2e2e32;}
@@ -624,7 +597,7 @@ line-height:2.6em;margin:0 2px;text-decoration:none;font-family:&#39;Roboto&#39;
 #Stats1 li{display:inline-block;width:50%;margin:0 auto;border:0;background:#2e2e32;
 color:#fff;float:left;padding:0;text-decoration:none;text-shadow:none;list-style-type:none;
 height:50px;box-shadow:inset -1px 0 0 #212124;}
-#Stats1 h4{margin:0;font-size:14px;color:#fff;text-shadow:none;line-height:50px;text-align: center;font-family:&#39;Viga&#39;;font-weight:400;}
+#Stats1 h4{margin:0;font-size:14px;color:#fff;text-shadow:none;line-height:50px;text-align: center;font-family:&#39;Trebuchet MS&#39;;font-weight:400;}
 #Stats1 h4:before {content:&quot;\f15c&quot;;font-family:FontAwesome;font-size:16px;font-style:normal;font-weight:normal;padding:9px 15px;color:#ecb863;line-height:50px;}
 #Stats1 #totalComments h4:before{content:&quot;\f086&quot;;font-family:FontAwesome;font-size:16px;font-style:normal;font-weight:normal;padding:9px 15px;color:#ecb863;line-height:50px;}
 div#Stats1 {padding:0;}
@@ -650,9 +623,9 @@ li#totalComments{background:#212124;box-shadow:inset 1px 0 0 #3d3d42;}
 .ntitle h2:first-letter{color:#ecb863;}
 .ntitle{font-size:14px}
 .ndesc p{margin-top:10px}
-#newsletter input.address{border:none;border-right:none;border-radius:3px 0 0 3px;background-color:#f0f0f0;height:40px;padding:0 10px;width:300px;margin-right:-5px;font-family:&#39;Roboto&#39;;font-size:15px;font-weight:400;transition:background-color 0.3s ease-in-out;}
+#newsletter input.address{border:none;border-right:none;border-radius:3px 0 0 3px;background-color:#f0f0f0;height:40px;padding:0 10px;width:300px;margin-right:-5px;font-family:&#39;Trebuchet MS&#39;;font-size:15px;font-weight:400;transition:background-color 0.3s ease-in-out;}
 #newsletter input.address:focus{outline:none;border:none;background-color:#444;color:#ddd;border-right:none;}
-#newsletter input.submit{height:40px;width:80px;background-color:#aa00aa;border:0;border-radius:0 3px 3px 0;color:#fff;cursor:pointer;position:relative;top:-1px;font-family:&#39;Viga&#39;;font-size:15px;font-weight:400;position:relative;transition:all 0.3s ease-in-out;}
+#newsletter input.submit{height:40px;width:80px;background-color:#aa00aa;border:0;border-radius:0 3px 3px 0;color:#fff;cursor:pointer;position:relative;top:-1px;font-family:&#39;Trebuchet MS&#39;;font-size:15px;font-weight:400;position:relative;transition:all 0.3s ease-in-out;}
 #newsletter input.submit:hover{opacity:0.9;}
 
 /* Global Responsive */
@@ -668,7 +641,7 @@ li#totalComments{background:#212124;box-shadow:inset 1px 0 0 #3d3d42;}
 .main-nav {display:block;width:100%;padding:0;background:#fff;}
 .main-nav ul {text-align:center;}
 .main-nav ul {display:none;height:auto;}
-.main-nav a#pull {background-color:#fff;color:#aaa;display:inline-block;font-family:&#39;Viga&#39;;font-size:16px;font-weight:400;padding:5px 10px;position:relative;text-align:left;text-transform:uppercase;width:96%;line-height:40px;}
+.main-nav a#pull {background-color:#fff;color:#aaa;display:inline-block;font-family:&#39;Trebuchet MS&#39;;font-size:16px;font-weight:400;padding:5px 10px;position:relative;text-align:left;text-transform:uppercase;width:96%;line-height:40px;}
 .main-nav a#pull:after {content:&quot;\f0c9&quot;;font-family:FontAwesome;
 font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#aaa;
 display:inline-block;position:absolute;right:15px;line-height:40px;}
@@ -776,7 +749,7 @@ h1.post-title a:hover{color:#b0b;text-decoration:none;}
 .post-info, .label-info{display:block;}
 .post-info {overflow:hidden;margin:20px 0;padding:10px 0;background:#cacaca;}
 .label-info a {background:#aaa;color:#fff;font-size:12px;display:block;float:left;
-padding:2px 6px;margin:0 5px;font-family:&#39;Viga&#39;;text-transform:uppercase;transition:all .3s ease-in-out;}
+padding:2px 6px;margin:0 5px;font-family:&#39;Trebuchet MS&#39;;text-transform:uppercase;transition:all .3s ease-in-out;}
 .label-info a:hover{background:#ecb863;color:#fff;}
 
 /* CSS Blog Pager */
@@ -792,8 +765,8 @@ padding:2px 6px;margin:0 5px;font-family:&#39;Viga&#39;;text-transform:uppercase
 
 /* CSS Related Posts */
 #related_posts {margin:0;padding:0;margin-bottom:10px;}
-#related_posts h4 {display:none;font-family:&#39;Viga&#39;;color:#f48067;padding:0;margin:10px 0;font-size:120%;float:left;font-weight:400;background:#fff;text-transform:uppercase;}
-.relhead {background:#fff;color:#f48067;font-family:&#39;Roboto&#39;;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:10px 0;}
+#related_posts h4 {display:none;font-family:&#39;Trebuchet MS&#39;;color:#f48067;padding:0;margin:10px 0;font-size:120%;float:left;font-weight:400;background:#fff;text-transform:uppercase;}
+.relhead {background:#fff;color:#f48067;font-family:&#39;Trebuchet MS&#39;;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:10px 0;}
 #relpost_img_sum .news-text {display:none;}
 ul#relpost_img_sum {margin:0;padding:0;}
 ul#relpost_img_sum li {float:left;list-style: none outside none;margin:0 0 0 0;padding:0;overflow:hidden;width:25%;}
@@ -801,7 +774,7 @@ ul#relpost_img_sum li a {display:block;}
 ul#relpost_img_sum li img {background-color:#fff;width:100%;height:120px;margin:0 auto;vertical-align:middle;transition:all 1s ease-out;}
 ul#relpost_img_sum li img:hover {opacity:0.9;}
 ul#relpost_img_sum li a.relinkjdulx {background-image:none;color:#444;
-display:block;font-family:&#39;Roboto&#39;;font-size:13px;font-weight:normal;overflow:hidden;padding:10px 0;text-transform:none;}
+display:block;font-family:&#39;Trebuchet MS&#39;;font-size:13px;font-weight:normal;overflow:hidden;padding:10px 0;text-transform:none;}
 
 /* CSS Author Box */
 .articleAuthor{overflow:hidden;margin-bottom:10px;border-bottom:3px solid #ddd;}
@@ -850,7 +823,7 @@ body{padding:0}
 .post h2.post-title {opacity:0;visibility:hidden;padding:0;margin:0 auto;background:rgba(0,0,0,.4);position:absolute;text-decoration:none;top:0;
 left:0;right:0;bottom:0;transition:all .1s ease-in-out;}
 .post:hover h2.post-title {opacity:1;visibility:visible;z-index:2;}
-h2.post-title a {font-family:&#39;Viga&#39;;text-align:center!important;font-size:14px;font-weight:400;letter-spacing:0.5px;padding:0;margin:0 auto;position:absolute;top:10px;left:10px;right:10px;bottom:10px;border:1px dashed rgba(255,255,255,.5);display:block;line-height:100%;color:#fff!important;text-transform:uppercase;text-decoration:none!important;
+h2.post-title a {font-family:&#39;Trebuchet MS&#39;;text-align:center!important;font-size:14px;font-weight:400;letter-spacing:0.5px;padding:0;margin:0 auto;position:absolute;top:10px;left:10px;right:10px;bottom:10px;border:1px dashed rgba(255,255,255,.5);display:block;line-height:100%;color:#fff!important;text-transform:uppercase;text-decoration:none!important;
 background:rgba(0,0,0,.2);opacity:0;z-index:1;transition:all .1s ease-in-out;}
 h2.post-title a:hover{color:#fff}
 .post:hover h2.post-title a {opacity:1;}
@@ -937,7 +910,7 @@ h1.post-title a {font-size:48px;text-align:center;display:block;}
 #header-wrapper, #wrapper, #footer-wrapper, #copyright {display:none;}
 
 /* CSS Custom Error Page */
-#oopss {background:#eee;text-align:center;margin-bottom:50px;font-weight:400;font-size:45px;font-family:&#39;Viga&#39;,sans-serif;position:fixed;width:100%;height:100%;line-height:1.5em;z-index:9999;}
+#oopss {background:#eee;text-align:center;margin-bottom:50px;font-weight:400;font-size:45px;font-family:&#39;Trebuchet MS&#39;,sans-serif;position:fixed;width:100%;height:100%;line-height:1.5em;z-index:9999;}
 #error-text {top:30%;position:relative;font-size:50px;color:#fff;text-shadow: 0 4px 0 #ddd,0 8px 8px #aaa;}
 #error-text a{color:#888;}
 #error-text p {margin:0!important;}
@@ -1135,8 +1108,8 @@ head.appendChild(script);
 </b:includable>
       </b:widget>
     </b:section>
-    <b:section class='navigation' id='navigation' maxwidgets='1' showaddelement='no'>
-      <b:widget id='HTML99' locked='true' title='Navigation-Menus (Do Not Edit Here!)' type='HTML'>
+    <b:section class='naTrebuchet MStion' id='naTrebuchet MStion' maxwidgets='1' showaddelement='no'>
+      <b:widget id='HTML99' locked='true' title='NaTrebuchet MStion-Menus (Do Not Edit Here!)' type='HTML'>
         <b:includable id='main'>
           <nav class='main-nav'>
             <!-- Main menu -->
