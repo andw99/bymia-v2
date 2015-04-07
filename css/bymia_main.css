@@ -87,7 +87,7 @@ a{
     text-shadow: 2px 2px 5px #fbedff;
     margin-right: 10vw;
 }
-a.h2 > span:hover {
+.bymia-container > header h2 span:hover {
     text-shadow: 2px 2px 5px #fff;
 }
 a.h1-txt > span {
