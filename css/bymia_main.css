@@ -93,7 +93,7 @@ a.h1-txt > span:hover {
 }
 a.h2-txt > span {
     width: 240px;
-    font-family: ''Georgia', serif;
+    font-family: 'Georgia', serif;
 	font-size: 72px;
     font-style: italic;
     line-height: 1.2em;
