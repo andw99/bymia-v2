@@ -254,7 +254,7 @@ th.pad {
     display: inline-block;
     top: 6vh;
     position: absolute;
-    margin-left: 20vw;
+    margin-left: 15vw;
     width: 60vw;
     font-family: Georgia;
 	font-size: 100px;
@@ -301,7 +301,7 @@ th.pad {
     display: inline-block;
     top: 6vh;
     position: absolute;
-    margin-left: 20vw;
+    margin-left: 15vw;
     width: 60vw;
     font-family: Georgia;
 	font-size: 100px;
@@ -319,7 +319,7 @@ th.pad {
         display: inline-block;
         top: 12vh;
         position: absolute;
-        margin-left: 5vw;
+        margin-left: -5vw;
         width: 100vw;
         font-family: Georgia;
         font-size: 100px;
@@ -337,7 +337,7 @@ th.pad {
         display: inline-block;
         top: 12vh;
         position: absolute;
-        margin-left: 5vw;
+        margin-left: -5vw;
         width: 100vw;
         font-family: Georgia;
         font-size: 100px;
