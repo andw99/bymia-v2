@@ -61,7 +61,7 @@ a{
 .clr{
 	clear: both;
 }
-.bymia-container > header{
+.bymia-container > header {
     z-index: 100;
 	padding: 30px 30px 10px 20px;
 	margin: 0px 20px 10px 20px;
@@ -73,17 +73,15 @@ a{
 .bymia-container > header h1 {
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
-	line-height: 35px;
+	line-height: 68px;
 	position: fixed;
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
 .bymia-container > header h2 {
-    width: 100px;
     font-family: 'Georgia', serif;
-	font-size: 72px;
+	font-size: 36px;
     font-style: italic;
-    line-height: 1.2em;
     float: right;
     color: #cb70df;
     text-shadow: 2px 2px 5px #fbedff;
@@ -133,12 +131,6 @@ span.home-img:hover {
     opacity: .7;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     text-decoration: none;
-}
-.bymia-container > header h2 {
-	font-size: 16px;
-	font-style: italic;
-	color: #f8f8f8;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 .bymia-page1 {
     position: relative;
