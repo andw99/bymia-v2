@@ -51,9 +51,9 @@
 	color: #fff;
     text-shadow: 2px 2px 5px #cb70df;
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(http://bymia.fr/images/image01.jpg) }
+.cb-slideshow li:nth-child(1) span { background-image: url(https://cdn.rawgit.com/andw99/bymia-v2/master/images/img-023.jpg) }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(http://bymia.fr/images/img-03p.jpg);
+    background-image: url(https://cdn.rawgit.com/andw99/bymia-v2/master/images/img-052.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
