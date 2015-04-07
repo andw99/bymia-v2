@@ -78,6 +78,18 @@ a{
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
+.bymia-container > header h2 {
+    width: 240px;
+    font-family: 'Georgia', serif;
+	font-size: 72px;
+    font-style: italic;
+    line-height: 1.2em;
+    float: right;
+    color: #cb70df;
+    text-shadow: 2px 2px 5px #fbedff;
+    margin-right: 10vw;
+}
+
 a.h1-txt > span {
     width: 240px;
     font-family: 'Pinyon Script', cursive;
