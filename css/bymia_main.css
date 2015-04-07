@@ -209,7 +209,7 @@ span.home-img:hover {
     padding-bottom: 5vh;
     text-align: left;
     clear: both;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
 }
 .map-link {
     text-align: center;

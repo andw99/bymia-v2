@@ -41,16 +41,17 @@
     <b:skin><![CDATA[
 /**
  *  Blogger Template Details
- *  Name      : Lite Minimal
- *  Designer  : Dasari Harish
- *  URI       : http://www.way2blogging.com/
- *  Date      : Monday, February 06, 2012
+ *  Name      : ByMia.fr Responsive
+ *  Designer  : Andrew Walker
+ *  URI       : http://www.linkedin.com/in/aswalker
+ *  Date      : April 2015
  *  Licence   : Licensed under the Creative Commons Attribution 3.0 License,
  *              which permits both personal and commercial use.
  *              However, to satisfy the 'attribution' clause of the license,
  *              you are required to keep the footer links intact which provides
  *              due credit to its authors. For more specific details about the
  *              license, you may visit the URL : http://creativecommons.org/licenses/by/3.0
+ *              based upon EliteMinima template from http://www.way2blogging.com/
  */
 
 /*
@@ -62,8 +63,8 @@
     <Variable name="body.background" description="Elite Body Background" type="background" color="$(body.background.color)" default="$(color) none repeat fixed top center" value="$(color) none repeat fixed top center"/>
 </Group>
 <Group description="Elite Links" selector="a">
-    <Variable name="link.color" description="Elite Link Color" type="color" default="#677175" value="#677175"/>
-    <Variable name="link.hover.color" description="Elite Hover Color" type="color" default="#1C3072" value="#1C3072"/>
+    <Variable name="link.color" description="Elite Link Color" type="color" default="#fbedff" value="#fbedff"/>
+    <Variable name="link.hover.color" description="Elite Hover Color" type="color" default="#c000c0" value="#c000c0"/>
 </Group>
 <Group description="Elite Header Title" selector="#heaader-wrapper h1">
     <Variable name="header.font" description="Title Font" type="font" default="normal 52px Parisienne" value="normal 52px 'Pinyon Script'"/>
@@ -219,7 +220,8 @@ a,a:link,a:visited {
 
 a:hover,a:active,a:focus {
 	color: $(link.hover.color);
-	text-decoration: underline;
+	text-shadow: 1px 1px 0px rgba(0,0,0,1);
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -254,7 +256,7 @@ h5 {
 
 #container {
     background: rgba(64, 48, 64, 0.8);
-    width: 75vw;
+    width: 80vw;
 	-webkit-border-top-right-radius: 18px;
 	-moz-border-radius-topright: 18px;
 	border-top-right-radius: 18px;
@@ -286,8 +288,8 @@ h5 {
 }
 
 #mainnav ul {
-	border-bottom: 3px double #EEEEEE;
-	border-top: 3px double #EEEEEE;
+	border-bottom: 3px groove #EE00EE;
+	border-top: 3px groove #EE00EE;
 	list-style: none outside none;
 	margin: 0 auto;
 	padding: 0;
@@ -324,7 +326,7 @@ h5 {
 .post img {
 	padding: $(postimage.padding)px;
 	background: $(postimage.background.color);
-	border: 1px solid $(postimage.border.color);
+	border: 1px groove $(postimage.border.color);
 	-moz-border-radius: $(postimage.border.radius);
 	-webkit-border-radius: $(postimage.border.radius);
 	border-radius: $(postimage.border.radius);
@@ -345,7 +347,7 @@ pre {
 }
 
 h3.post-title {
-	border-bottom: 1px solid #EEEEEE;
+	border-bottom: 1px groove #EE00EE;
 	display: block;
 	font:$(post.title.font);
 	margin-bottom: 20px;
@@ -413,7 +415,7 @@ h3.post-title a {
 #sidebar .widget {
 	margin: 0 0 15px;
 	padding: 0 0 15px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px groove #ee00ee;
 }
 
 #sidebar .widget-content {
@@ -422,7 +424,7 @@ h3.post-title a {
 
 #sidebar .widget h2 {
 	font:$(widget.title.font);
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px groove #ee00ee;
 	padding-bottom: 5px;
 	text-align: center;
         color:$(widget.title.color);
@@ -456,7 +458,7 @@ h3.post-title a {
 }
 
 .comments {
-	border-top: 1px solid #EEEEEE;
+	border-top: 1px groove #ee00ee;
 	margin: 15px 0;
 	padding-top: 15px;
 	position: relative;
@@ -482,7 +484,7 @@ dl#comments-block {
 }
 
 #comments-block .comment-author {
-	border: 1px solid #DDD;
+	border: 1px groove #dd00dd;
 	background: #efefef;
 	font-weight: bold;
 	margin-left: 75px !important;
@@ -495,7 +497,7 @@ dl#comments-block {
 
 #comments-block .avatar-image-container {
 	background: url("http://1.bp.blogspot.com/-RYWFuWPpH6s/Tzt2zmB99pI/AAAAAAAAE-A/-dQhr5MTJ3w/s000/default-avatar.png") no-repeat scroll center center #eee;
-	border: 2px solid #DDDDDD;
+	border: 2px groove #dd00dd;
 	height: 64px !important;
 	max-height: 64px !important;
 	left: 0 !important;
@@ -521,19 +523,19 @@ dl#comments-block {
 	background: none repeat scroll 0 0 #efefef;
 	margin: 0 0 0 75px !important;
 	padding: 3px 8px;
-	border-left: 1px solid #DDD;
-	border-right: 1px solid #DDD;
+	border-left: 1px groove #dd00dd;
+	border-right: 1px groove #dd00dd;
 }
 
 #comments-block .comment-body p {
-	border-bottom: 1px solid #DDDDDD;
-	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px groove #dd00dd;
+	border-top: 1px groove #dd00dd;
 	padding: 4px 0;
 }
 
 #comments-block .comment-footer {
 	background: none repeat scroll 0 0 #efefef;
-	border: 1px solid #DDD;
+	border: 1px groove #dd00dd;
 	border-top: medium none;
 	padding: 0 5px 5px 5px;
 	text-decoration: none;
@@ -577,7 +579,7 @@ dl#comments-block {
 
 #footer-warp .widget h2 {
 	font:$(widget.title.font);
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px groove #ee00ee;
 	padding-bottom: 5px;
 	text-align: center;
         color:$(widget.title.color);
@@ -596,7 +598,7 @@ dl#comments-block {
 }
 
 #credits {
-	border-top: 3px double #EEEEEE;
+	border-top: 3px groove #ee00ee;
 	margin-top: 15px;
 	overflow: hidden;
 	padding-top: 15px;
@@ -970,157 +972,22 @@ window.matchMedia=window.matchMedia||(function(e,f){var c,a=e.documentElement,b=
 </head>
 <body>
 
-        <ul class="cb-slideshow">
-            <li><span>Image 01</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
-            <li><span>Image 02</span><div><h3>Uniquement sur RDV</h3></div></li>
-            <li><span>Image 03</span><div><h3>Pas d'attente!</h3></div></li>
-            <li><span>Image 04</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
-            <li><span>Image 05</span><div><h3>Uniquement sur RDV</h3></div></li>
-            <li><span>Image 06</span><div><h3>Pas d'attente!</h3></div></li>
-        </ul>
-        <div class="bymia-container">
-            <header id="home">
-                <div><a class="h1-txt" href="#home"><h1><span>ByMia</span></h1></a></div>
-                <div class="bymia-links">
-                    <div class="bymia-a"><a class="link-1" href="#about"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>moi</a></div>
-                    <div class="bymia-a"><a class="link-2" href="#find-us"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>tentés</a></div>
-                    <div class="bymia-a"><a class="link-3" href="#prices-services"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>tarifs</a></div>
-                    <div class="bymia-a"><a class="link-4" href="#blog"><span><img src="https://cdn.rawgit.com/andw99/bymia-v2/master/images/mia-marker.png"/></span>blog</a></div>
-                </div>
-                <div class="bymia-txt">
-                    <div class="bymia-menu-1">moi</div>
-                    <div class="bymia-menu-2">tentés</div>
-                    <div class="bymia-menu-3">tarifs</div>
-                    <div class="bymia-menu-4">blog</div>
-                </div>
-            </header>
-            <div class="bymia-page1"></div>
-            <div class="bymia-content">
-                <div class='bymia-section'>
-                    <p id="about"><h2>Presentation</h2></p>
-                    <p><h4>Si vous en avez assez de perdre votre temps dans les salons classiques...<br/>
-                    Si vous n'aimez pas l'effervescence et le brouhaha...<br/>
-                    Si vous n'appreciez plus d'avoir la même allure que le fauteuil voisin...<br/></h4>
-                    </p>
-                    <p><h3>Et Bien</h3></p>
-                    <p><h4>Je vous propose un service sur mesure loin des regards indiscrets et des oreilles qui trainent.<br/>
-                    Un respect de votre timing, vous savez a quel heure vous arrivez et l'heure de votre départ.<br/>
-                    Je propose mes services individuellement, pas d'attente!!! Que du cocooning et une prise en charge de votre bien-être.<br/>
-                    Je propose aussi du conseil make-up... le mise en valeur par quelques gestes simple de votre beauté, tous types, toutes origines.<br/></h4>
-                    </p>
-                    <p><h3>Tenté??</h3></p>
-        			<p><h4>P.S. je vous attends pour partager un café<br/></h4></p>
-                    <div><a href='#home'><span class='home-img'/></a></div>
-                </div>
-                <div class="bymia-section-alt">
-                    <p id="find-us"><h2>Contactez-moi</h2></p>
-                    <p><h3>.</h3></p>
-                    <p><h3>Phone : 06.12.26.64.96</h3></p>
-                    <p><h3>.</h3></p>
-                    <p><h3>127 rue Breteuil, Marseille 13006</h3></p>
-                    <p><h3>Parking public Montevideo a proximité</h3></p>
-                    <p><h3>.</h3></p>
-                    <div class="map-link">
-                        <a class="th4" target="_blank" href="https://www.google.com/maps/place/By+Mia/@43.286606,5.37741,17z/data=!3m1!4b1!4m2!3m1!1s0x12c9c0b6c77f2da1:0x5962f8dda806a184">suivre moi ... By Mia</a>
-                    </div>
-                    <div><a href='#home'><span class='home-img'/></a></div>
-                </div>
-                <div class="bymia-section">
-                    <p id="prices-services"><h2>Prestation</h2></p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="pad"></th>
-                                <th class="descr">Services</th>
-                                <th></th>
-                                <th class="prix">€</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Shampoing Brush</td>
-                                <td></td>
-                                <td class="th4">25 - 35</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Shampoing Coupe Brush</td>
-                                <td></td>
-                                <td class="th4">40 - 50</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Couleur</td>
-                                <td></td>
-                                <td class="th4">30</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Balayage</td>
-                                <td></td>
-                                <td class="th4">40 - 90</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Balayage ombré</td>
-                                <td></td>
-                                <td class="th4">50</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Forfait Relax</td>
-                                <td></td>
-                                <td class="th4">60 - 80</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="pad"></th>
-                                <th class="descr">mes plus</th>
-                                <th></th>
-                                <th class="prix">...</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Attache</td>
-                                <td></td>
-                                <td class="th4">50</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Chignons a partir de</td>
-                                <td></td>
-                                <td class="th4">60</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Soin... produit naturel avec ingredients secrets</td>
-                                <td></td>
-                                <td class="th4">10</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="th4">Conseil maquillage personalisé... avec produits à avoir</td>
-                                <td></td>
-                                <td class="th4">15</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div><a href="#home"><span class="home-img"></span></a></div>
-                </div>
-                <div class="bymia-sectiontop"></div>
-                <div id="blog" class="bymia-section">
-                </div>
-            </div>
-        </div>
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
+        <li><span>Image 02</span><div><h3>Uniquement sur RDV</h3></div></li>
+        <li><span>Image 03</span><div><h3>Pas d'attente!</h3></div></li>
+        <li><span>Image 04</span><div><h3>...By Mia - coiffeuse conseil...</h3></div></li>
+        <li><span>Image 05</span><div><h3>Uniquement sur RDV</h3></div></li>
+        <li><span>Image 06</span><div><h3>Pas d'attente!</h3></div></li>
+    </ul>
+    <div class="bymia-container">
+        <header id="home" >
+            <div><a href="http://bymia.fr"><h1><span class="h1-txt">ByMia</span></h1></a></div>
+        </header>
+    </div>
 
-<div id='body-hack'/>
-<div id="blog" class="bymia-section-alt">
+    <div id='body-hack'/>
+<div class='bymia-section-blog'>
     <div class='container_12' id='container'>
         <div class='grid_12' id='heaader-wrapper'>
             <b:section id='headerw' maxwidgets='1' showaddelement='no'>
@@ -2425,7 +2292,7 @@ removeRelatedDuplicates(); printRelatedLabels();
 </b:section>
         </div>
         <div class='grid_12' id='credits'>
-          <p style='float:left;'>&amp;copy; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <strong><data:blog.title/></strong>, AllRightsReserved.</p>
+          <p style='float:left;'>&amp;copy; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <strong><data:blog.title/></strong>, www.bymia.fr AllRightsReserved.</p>
           <p style='float:right;'>Designed by <a href='http://www.linkedin.com/in/aswalker' title='Technical Program Manager, Principal Product Manager, website creator'>andw99</a></p>
         </div>
      <div style='clear:both;'/>
