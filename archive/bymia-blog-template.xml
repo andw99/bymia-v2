@@ -33,9 +33,9 @@ URL:      www.marsupial.fr
    </Group>
 
    <Group description="Backgrounds" selector=".body-fauxcolumns-outer">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd" value="#400044"/>
-     <Variable name="content.background.color" description="Main Background" type="color" default="#ffffff" value="#4c4c4c"/>
-     <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="#400044"/>
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#400044" value="#400044"/>
+     <Variable name="content.background.color" description="Main Background" type="color" default="#4c4c4c" value="#4c4c4c"/>
+     <Variable name="header.background.color" description="Header Background" type="color" default="#400044" value="#400044"/>
    </Group>
 
    <Group description="Links" selector=".main-outer">
