@@ -2320,8 +2320,8 @@ $(&#39;#BackToTop&#39;).click(function() { $(&#39;body,html&#39;).animate({scrol
 
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-<script src='https://arlina-design.googlecode.com/svn/imagesloaded.pkgd.min.js'/>
-<script src='https://arlina-design.googlecode.com/svn/masonry.pkgd.min.js'/>
+<script src='https://cdn.rawgit.com/andw99/bymia-v2/master/js/imagesloaded.pkgd.min.js'/>
+<script src='https://cdn.rawgit.com/andw99/bymia-v2/master/js/masonry.pkgd.min.js'/>
 <script>
 	/* masonry */
 	jQuery(document).ready(function($) {
