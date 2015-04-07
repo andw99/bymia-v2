@@ -43,7 +43,6 @@ abbr,acronym { border:0;
 body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	background: #000;
-	font-weight: 400;
 	font-size: 15px;
 	color: #aa3e03;
 	overflow-y: scroll;
@@ -76,7 +75,6 @@ a{
 	font-size: 72px;
 	line-height: 35px;
 	position: fixed;
-	font-weight: 500;
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
@@ -86,7 +84,6 @@ a{
 	font-size: 72px;
 	line-height: 35px;
 	position: fixed;
-	font-weight: 500;
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
 }
@@ -142,7 +139,6 @@ span.home-img:hover {
     text-align: center;
     font-size: 56px;
 	font-style: normal;
-    font-weight: 400;
     padding-top: 2vh;
     line-height: 1.5em;
     color: #f0f0f0;
@@ -153,7 +149,6 @@ span.home-img:hover {
 	text-align: center;
     font-size: 48px;
 	font-style: normal;
-    font-weight: 400;
     line-height: 1.8em;
 	color: #c000c0;
 	text-shadow: 1px 1px 0px rgba(0,0,0,1);
@@ -163,7 +158,6 @@ span.home-img:hover {
     font-family: Georgia, Times, serif;
 	font-size: 26px;
 	font-style: italic;
-    font-weight: 400;
     line-height: 1.4em;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -184,7 +178,6 @@ span.home-img:hover {
     text-align: center;
     font-size: 56px;
 	font-style: normal;
-    font-weight: 400;
     padding-top: 2vh;
     line-height: 1.5em;
     color: #f0f0f0;
@@ -195,7 +188,6 @@ span.home-img:hover {
 	text-align: center;
     font-size: 48px;
 	font-style: normal;
-    font-weight: 400;
     line-height: 1.8em;
 	color: #d000d0;
 	text-shadow: 1px 1px 0px rgba(0,0,0,1);
@@ -205,7 +197,6 @@ span.home-img:hover {
     font-family: Georgia, Times, serif;
 	font-size: 26px;
 	font-style: italic;
-    font-weight: 400;
     line-height: 1.4em;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -262,7 +253,6 @@ th.pad {
 	font-size: 18vw;
     font-style: italic;
 	text-align: center;
-	font-weight: 800;
 }
 .bymia-a {
     line-height: .52em;
@@ -309,7 +299,6 @@ th.pad {
 	font-size: 18vw;
     font-style: italic;
 	text-align: center;
-	font-weight: 800;
     line-height: .52em;
     color: rgba(139, 26, 137, 0.6);
 	text-shadow: 1px 1px 1px rgba(255,255,255,.6);
@@ -327,7 +316,6 @@ th.pad {
         font-size: 25vh;
         font-style: italic;
         text-align: center;
-        font-weight: 800;
         text-decoration: none;
     }
     .bymia-a {
@@ -345,7 +333,6 @@ th.pad {
         font-size: 25vh;
         font-style: italic;
         text-align: center;
-        font-weight: 800;
         text-decoration: none;
         line-height: .58em;
     }
