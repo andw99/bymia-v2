@@ -84,10 +84,10 @@ a{
     font-style: italic;
     float: right;
     color: #cb70df;
-    text-shadow: 2px 2px 5px #fbedff;
+    text-shadow: 2px 2px 2px #fbedff;
     margin-right: 10vw;
 }
-.bymia-container > header h2 span:hover {
+.bymia-container > header h2:hover {
     text-shadow: 2px 2px 5px #fff;
 }
 a.h1-txt > span {
