@@ -9,7 +9,7 @@
 }
 .cb-slideshow:after {
     content: '';
-    background: transparent url(http://bymia.fr/images/pattern1.png) repeat top left;
+    background: transparent url(https://cdn.rawgit.com/andw99/bymia-v2/master/images/dark-leather.png) repeat top left;
 	opacity: 75%;
 }
 .cb-slideshow li span {
