@@ -1055,10 +1055,10 @@ head.appendChild(script);
           <nav class='main-nav'>
             <!-- Main menu -->
             <ul>
-              <li class='sorting-01 facebook'><a href='https://www.facebook.com/pages/ByMia/1447667865448988' target='_blank' title='Follow us on facebook'><i class='fa fa-facebook'/><span class='inv'/></a></li>
-              <li class='sorting-02 googleplus'><a href='https://plus.google.com/u/0/108435165649998492492' target='_blank' title='Follow us on google plus'><i class='fa fa-google-plus'/><span class='inv'/></a></li>
-              <li class='sorting-03 contactus'><a href='http://bymia.fr/index.html#find-us' title='contact'><i class='fa fa-envelope-o'/><span class='inv'/></a></li>
-              <li class='sorting-04 oursitemap'><a href='http://bymia.fr' title='home'><i class='fa fa-home'/><span class='inv'/></a></li>
+              <li class='sorting-01 oursitemap'><a href='http://bymia.fr' title='home'><i class='fa fa-home'/><span class='inv'/></a></li>
+              <li class='sorting-02 facebook'><a href='https://www.facebook.com/pages/ByMia/1447667865448988' target='_blank' title='Follow us on facebook'><i class='fa fa-facebook'/><span class='inv'/></a></li>
+              <li class='sorting-03 googleplus'><a href='http://bymia.fr/index.html#prices_services' target='_blank' title='Follow us on google plus'><i class='fa fa-google-plus'/><span class='inv'/></a></li>
+              <li class='sorting-04 contactus'><a href='http://bymia.fr/index.html#find-us' title='contact'><i class='fa fa-envelope-o'/><span class='inv'/></a></li>
               <li class='searchbutton' title='Search this blog'/>
             </ul>
 	        <a href='#' id='pull'>Menu</a>
