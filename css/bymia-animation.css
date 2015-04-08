@@ -10,7 +10,7 @@
 .cb-slideshow:after {
     content: '';
     background: transparent url(https://cdn.rawgit.com/andw99/bymia-v2/master/images/dark-leather.png) repeat top left;
-	opacity: 75%;
+	opacity: 100%;
 }
 .cb-slideshow li span {
     width: 100%;
