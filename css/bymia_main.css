@@ -353,5 +353,56 @@ th.pad {
         text-align: center;
         text-decoration: none;
         line-height: .58em;
+
+    }
+    .th4 {
+        font-family: Georgia, Times, serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.4em;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        color: #d0d0d0;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+    }
+    .bymia-section > h3 {
+        font-family: 'Pinyon Script', cursive;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        line-height: 1.8em;
+        color: #c000c0;
+        text-shadow: 1px 1px 0px rgba(0,0,0,1);
+        text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
+    }
+    .bymia-section > h4 {
+        font-family: Georgia, Times, serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.4em;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        color: #fbedff;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+    }
+    .bymia-section-alt > h3 {
+        font-family: 'Pinyon Script', cursive;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        line-height: 1.8em;
+        color: #d000d0;
+        text-shadow: 1px 1px 0px rgba(0,0,0,1);
+        text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
+    }
+    .bymia-section-alt > h4 {
+        font-family: Georgia, Times, serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.4em;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        color: #fbedff;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
     }
 }
