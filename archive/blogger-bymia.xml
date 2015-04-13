@@ -723,6 +723,7 @@ body{padding:0}
 #part-aside,#post-wrap,.post,.post-outer{width:100%;margin:0 auto;}
 #main {width:100%;box-shadow:none;border-bottom:none;margin:0 auto;}
 .post-info,.breadcrumbs,.sharepost,.articleAuthor,.comments-page,.banner,.BackToTop,.blogouter-wrapper,.search-form,#right-side,#copyright,#comments,#related_posts,#BackToTop,#css-menu,#blog-pager,#menu-wrapper,#newsletter{display:none;visibility:hidden;opacity:0;width:0;height:0;}}
+.search-form {height:28px;};
 </style>
 </b:if>
 
@@ -2008,14 +2009,6 @@ $(document).ready(function() {
     $(window).scroll(function() {
         stickyNav();
     });
-});
-
-//Search button
-$(function(){
-$('.searchbutton').click(function(){
-  $(this).toggleClass('active');
-  $('.search-form').slideToggle('normal');
-});
 });
 
 //Menu Top
