@@ -73,7 +73,8 @@ a{
 .bymia-container > header h1 {
     font-family: 'Pinyon Script', cursive;
 	font-size: 72px;
-	line-height: 68px;
+    font-size: 8vw;
+    line-height: 68px;
 	position: fixed;
 	color: #ddd;
     text-shadow: 2px 2px 5px #cb70df;
@@ -311,16 +312,25 @@ th.pad {
 	text-shadow: 1px 1px 1px rgba(255,255,255,.6);
 }
 @media screen and (orientation: portrait) {
+    .bymia-container > header h1 {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 72px;
+        font-size: 12vw;
+        line-height: 68px;
+        position: fixed;
+        color: #ddd;
+        text-shadow: 2px 2px 5px #cb70df;
+    }
     .bymia-links {
         z-index: 9999;
         display: inline-block;
-        top: 12vh;
+        top: 20vh;
         position: absolute;
         margin-left: -5vw;
         width: 100vw;
         font-family: Georgia;
         font-size: 72px;
-        font-size: 20vh;
+        font-size: 20vw;
         font-style: italic;
         font-weight: 800;
         text-align: center;
@@ -332,19 +342,18 @@ th.pad {
     }
     .bymia-txt {
         display: inline-block;
-        top: 12vh;
+        top: 20vh;
         position: absolute;
         margin-left: -5vw;
         width: 100vw;
         font-family: Georgia;
         font-size: 72px;
-        font-size: 20vh;
+        font-size: 20vw;
         font-style: italic;
         font-weight: 800;
         text-align: center;
         text-decoration: none;
         line-height: .58em;
-
     }
     .th4 {
         font-family: Georgia, Times, serif;
