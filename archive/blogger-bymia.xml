@@ -208,7 +208,7 @@ td.tr-caption{font-size:80%}
 #header h1 a:hover {color:#fff;}
 #header p.description{display:none;}
 #header img{border:0;background:none;width:auto;height:auto;margin:0 auto;}
-#header h1:before {content:&#39;\f185&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#aa00aa;transform:rotate(0);transition:all 0.3s ease-in-out;}
+#header h1:before {content:&#39;\00a0 &#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#aa00aa;transform:rotate(0);transition:all 0.3s ease-in-out;}
 #header h1:hover:before {content:&#39;\f185&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;margin-right:5px;color:#fff;transform:rotate(360deg);}
 
 /* CSS Top Menu */
@@ -230,24 +230,6 @@ td.tr-caption{font-size:80%}
 .main-nav ul li.facebook:hover .fa.fa-facebook,.main-nav ul li.googleplus:hover .fa.fa-google-plus,.main-nav ul li.twitter:hover .fa.fa-twitter,.main-nav ul li.contactus:hover .fa.fa-envelope-o,.main-nav ul li.oursitemap:hover .fa.fa-sitemap{color:#fff;}
 .main-nav li a:after {content:&#39;&#39;;width:0;bottom:0;left:0;height:2px;background-color:#fff;display:block;position:absolute;transition:all .5s ease;}
 .main-nav li a:hover:after {width:100%;}
-
-/* CSS Fixed Search Button */
-.lyco2-search {position:relative;padding:0;margin:0 auto;}
-.main-nav ul li.searchbutton {color:#fff;display:inline-block;margin:0;padding:7px 18px;text-transform:Capitalize;cursor:pointer;z-index:93;transition:background 0.5s ease-out 0s;}
-.main-nav ul li.searchbutton:focus {color:#fff;background:#424951;}
-.main-nav ul li.searchbutton:after {content:&quot;\f002&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:16px;color:#fff;display:inline-block;position:relative;line-height:40px;}
-.main-nav ul li.searchbutton.active:after {content:&quot;\f00d&quot;;font-family:FontAwesome;
-font-style:normal;font-weight:normal;text-decoration:none;font-size:19px;color:#fff;display:inline-block;position:relative;line-height:40px;}
-.search-form {display:none;position:relative;background:#f0f0f0;padding:15px;z-index:100;
-margin:0 auto;}
-.searchform {margin:0 auto;padding:0;text-align:center;width:100%;max-width:1100px;}
-.searchbar {width:50%;background:#fff;padding:10px 20px;font-weight:400;font-size:15px;font-family:&#39;Trebuchet MS&#39;,sans-serif;color:#666;margin:0 auto;border:0;outline:none;line-height:25px;border-radius:5px 0 0 5px;transition:background 0.5s ease-out 0s;}
-.searchbar:focus {color:#444;}
-.searchsubmit {background:#c8bb77;border:none;outline:none;cursor:pointer;color:#fff;
-padding:10px 20px;text-transform:uppercase;font-weight:400;font-size:16px;font-family:&#39;Trebuchet MS&#39;,sans-serif;line-height:25px;margin:0;border-radius:0 5px 5px 0;margin-left:-4px;transition:background-color 0.5s ease-out 0s;}
-.searchsubmit:hover {background:#2e2e32;color:#fff;}
-.searchsubmit:active {background:#2e2e32;color:#c8bb77;border:none;outline:none;}
 
 /* CSS Main Menu */
 #menu-wrapper{background:rgba(21,21,23,0.95);height:60px;width:100%;position:relative;z-index:99;transform:translateZ(0);}
@@ -644,7 +626,6 @@ li#totalComments{background:#212124;box-shadow:inset 1px 0 0 #3d3d42;}
 #header .description {width:40%;}
 .blogouter-wrapper {position:relative;}
 #feedContainer li {float:left;width:100%;}
-.lyco2-search {height:0;margin:0 auto;}}
 
 @media screen and (max-width:600px){
 #menu-wrapper {position:relative!important;}
@@ -741,7 +722,7 @@ ul#relpost_img_sum li img {float:left;width:25%;margin-right:10px;padding:10px 0
 body{padding:0}
 #part-aside,#post-wrap,.post,.post-outer{width:100%;margin:0 auto;}
 #main {width:100%;box-shadow:none;border-bottom:none;margin:0 auto;}
-.post-info,.breadcrumbs,.sharepost,.articleAuthor,.comments-page,.banner,.BackToTop,.blogouter-wrapper,.search-form,.lyco2-search,#right-side,#copyright,#comments,#related_posts,#BackToTop,#css-menu,#blog-pager,#menu-wrapper,#newsletter{display:none;visibility:hidden;opacity:0;width:0;height:0;}}
+.post-info,.breadcrumbs,.sharepost,.articleAuthor,.comments-page,.banner,.BackToTop,.blogouter-wrapper,.search-form,#right-side,#copyright,#comments,#related_posts,#BackToTop,#css-menu,#blog-pager,#menu-wrapper,#newsletter{display:none;visibility:hidden;opacity:0;width:0;height:0;}}
 </style>
 </b:if>
 
@@ -939,7 +920,7 @@ var reljudul=new Array();var relurls=new Array();var relcuplikan=new Array();var
   <header class='header-wrapper'>
   <div class='ct-wrapper'>
     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-      <b:widget id='Header1' locked='true' title='Lycoris (Header)' type='Header'>
+      <b:widget id='Header1' locked='true' title='ByMia (Header)' type='Header'>
         <b:includable id='main'>
 
   <b:if cond='data:useImage'>
