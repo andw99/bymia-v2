@@ -909,11 +909,7 @@ var reljudul=new Array();var relurls=new Array();var relcuplikan=new Array();var
   </div>
   </b:if>
 
-    <div class='search-form'>
-<form action='/search' class='searchform' method='get'>
-  <input class='searchbar' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;' type='text' value='Search here'/>
-  <input class='searchsubmit' type='submit' value='Search'/>
-</form>
+<div class='search-form'>
 </div>
 
 <div class='blogouter-wrapper'>
