@@ -723,7 +723,6 @@ body{padding:0}
 #part-aside,#post-wrap,.post,.post-outer{width:100%;margin:0 auto;}
 #main {width:100%;box-shadow:none;border-bottom:none;margin:0 auto;}
 .post-info,.breadcrumbs,.sharepost,.articleAuthor,.comments-page,.banner,.BackToTop,.blogouter-wrapper,.search-form,#right-side,#copyright,#comments,#related_posts,#BackToTop,#css-menu,#blog-pager,#menu-wrapper,#newsletter{display:none;visibility:hidden;opacity:0;width:0;height:0;}}
-.search-form {height:28px;};
 </style>
 </b:if>
 
@@ -911,6 +910,7 @@ var reljudul=new Array();var relurls=new Array();var relcuplikan=new Array();var
   </b:if>
 
 <div class='search-form'>
+<p style='font-size:36px;'>&#160;</p>
 </div>
 
 <div class='blogouter-wrapper'>
